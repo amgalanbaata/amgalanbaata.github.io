@@ -128,12 +128,14 @@
               <p>Цонжин Кибер Сургууль нь сурагчдад программ хангамжийн үндсэн мэдлэг, чадваруудыг эзэмшүүлэх, бүтээлч сэтгэлгээг хөгжүүлэхэд зорьж ажилладаг. Манай баг хичээлүүдийг практикт суурилсан, сонирхолтой арга барилаар заан, сурагч бүрийн хөгжилд анхаардаг.</p><a class="button button-primary-gradient" href="#"><span>read more</span></a>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay=".2s">
-            <p><strong>зорилгын статистик</strong></p>
+            <p><strong>Программ хангамж 2025</strong></p>
               <!-- Linear progress bar-->
               <article class="progress-linear">
+                <a href="class-6-detail.html">
                 <div class="progress-header">
                   <p>6-р анги</p><span class="progress-value">90</span>
                 </div>
+                </a>
                 <div class="progress-bar-linear-wrap">
                   <div class="progress-bar-linear"></div>
                 </div>
@@ -158,9 +160,11 @@
               </article>
               <!-- Linear progress bar-->
               <article class="progress-linear">
+                <a href="">
                 <div class="progress-header">
                   <p>9-р анги</p><span class="progress-value">75</span>
                 </div>
+                </a>
                 <div class="progress-bar-linear-wrap">
                   <div class="progress-bar-linear"></div>
                 </div>
@@ -195,6 +199,31 @@
             </div>
             <!-- <div class="col-xl-4 wow fadeIn" data-wow-delay=".4s"><img class="img-rounded" src="images/school-people.jpg" alt=""></div> -->
             <div class="wow fadeIn" data-wow-delay=".4s"><img class="img-rounded" src="images/school-people.jpg" alt=""></div>
+            <!-- home search -->
+            <div class="wow fadeIn homeSearch" data-wow-delay=".4s">
+              <h3>Сурагч Хайх</h3>
+              <select id="searchGrade" onchange="updateStudentNames()">
+                <option onclick="className('')" value="">--Анги сонгох--</option>
+                <option onclick="className('6-1')" value="6-1">6-1</option>
+                <option value="6-2">6-2</option>
+                <option value="7-1">7-1</option>
+                <option value="7-2">7-2</option>
+                <option value="8-1">8-1</option>
+                <option value="8-2">8-2</option>
+                <option value="9-1">9-1</option>
+                <option value="9-2">9-2</option>
+                <option value="10-1">10-1</option>
+                <option value="10-2">10-2</option>
+                <option value="11-1">11-1</option>
+                <option value="11-2">11-2</option>
+                <option value="12-1">12-1</option>
+              </select>
+              <select id="studentName">
+                <option value="">--Нэр сонгох--</option>
+              </select>
+              <input type="text" id="searchName" placeholder="Нэрээр хайх">
+              <button onclick="filterStudents()">Хайх</button>
+            </div>
           </div>
         </div>
       </section>
@@ -245,40 +274,40 @@
             <div class="col-sm-6 col-lg-4 wow fadeIn">
               <!-- Post Minimal-->
               <div class="post-minimal">
-                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/grid-gallery-4-370x260.jpg" alt="" width="370" height="260"/></a></figure>
+                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/6-1 Arig-Buh.jpg" alt="" width="370" height="260"/></a></figure>
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
-                    <li class="list-inline-item">Teacher: </li>
-                    <li class="list-inline-itema"><a href="#">Julie Weaver</a></li>
+                    <li class="list-inline-item">6-1 анги </li>
+                    <li class="list-inline-itema"><a href="#">Э.Аригбөх</a></li>
                   </ul>
                 </div>
-                <h4 class="post-minimal-title"><a href="#">Computer Science </a></h4>
+                <h4 class="post-minimal-title"><a href="#">STEM-ROBOT champion</a></h4>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
               <!-- Post Minimal-->
               <div class="post-minimal">
-                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/grid-gallery-5-370x260.jpg" alt="" width="370" height="260"/></a></figure>
+                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/8-2 Telmuun.jpg" alt="" width="370" height="260"/></a></figure>
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
-                    <li class="list-inline-item">Teacher: </li>
-                    <li class="list-inline-itema"><a href="#">Kathy Gibson</a></li>
+                    <li class="list-inline-item">8-2 анги </li>
+                    <li class="list-inline-itema"><a href="#">Б.Тэлмүүн</a></li>
                   </ul>
                 </div>
-                <h4 class="post-minimal-title"><a href="#">Political Economy</a></h4>
+                <h4 class="post-minimal-title"><a href="#">Алгоритмын Аварга 2025</a></h4>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".4s">
               <!-- Post Minimal-->
               <div class="post-minimal">
-                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/grid-gallery-6-370x260.jpg" alt="" width="370" height="260"/></a></figure>
+                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/7-1 M.Ochir Erdene.jpg" alt="" width="370" height="260"/></a></figure>
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
-                    <li class="list-inline-item">Teacher: </li>
-                    <li class="list-inline-itema"><a href="#">Walter Myers</a></li>
+                    <li class="list-inline-item">7-1 анги </li>
+                    <li class="list-inline-itema"><a href="#">М.Очир-Эрдэнэ</a></li>
                   </ul>
                 </div>
-                <h4 class="post-minimal-title"><a href="#">Mathematics and Statistics</a></h4>
+                <h4 class="post-minimal-title"><a href="#">Алгоритмын Аварга 2025</a></h4>
               </div>
             </div>
           </div><a class="button button-lg button-primary-gradient wow fadeIn" data-wow-delay=".2s" href="#"><span>view all courses</span></a>
@@ -335,8 +364,8 @@
       <!-- Gallery-->
       <section class="section oh text-center">
         <div class="owl-carousel owl-carousel-dots-space wow fadeIn" data-items="2" data-sm-items="3" data-md-items="4" data-lg-items="5" data-xl-items="6" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group">
-          <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/personal-page-gallery-1-original.jpg" data-lightgallery="item">
-            <div class="thumbnail-thin-inner"><img class="thumbnail-thin-image" src="images/personal-page-gallery-1-320x320.jpg" alt="" width="320" height="320"/>
+          <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/school-image-6.png" data-lightgallery="item">
+            <div class="thumbnail-thin-inner"><img class="thumbnail-thin-image" src="images/school-image-6.png" alt="" width="320" height="320"/>
             </div></a>
           <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/personal-page-gallery-2-original.jpg" data-lightgallery="item">
             <div class="thumbnail-thin-inner"><img class="thumbnail-thin-image" src="images/personal-page-gallery-2-320x320.jpg" alt="" width="320" height="320"/>
@@ -358,7 +387,7 @@
       <!-- Page Footer--><a class="banner" href="https://www.templatemonster.com/website-templates/monstroid2.html" target="_blank"><img src="images/monstroid-big-2.jpg" alt="" height="0"></a>
       <footer class="section footer-classic bg-gray-950">
         <div class="footer-classic-main">
-          <div class="container"> 
+          <div class="container">
             <div class="row row-30">
               <div class="col-lg-3">
                 <div class="row row-30 row-xl-40">
@@ -455,6 +484,7 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/studentsDetail.js"></script>
     <!-- coded by Drel-->
   </body>
 </html>

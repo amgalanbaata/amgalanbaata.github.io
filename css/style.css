@@ -14453,3 +14453,26 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		padding-bottom: 80px;
 	}
 }
+
+/* search style */
+.homeSearch input, select {
+	padding: 8px;
+	margin: 5px;
+}
+.homeSearch table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+.homeSearch th, td {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: left;
+}
+.homeSearch th {
+	background-color: #f5f5f5;
+}
+/* studentDetail title */
+#sectionTitle {
+	color: #ffffff;
+}
