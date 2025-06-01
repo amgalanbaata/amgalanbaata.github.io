@@ -70,6 +70,412 @@ const studentData = [
         ],
     },
     {
+        grade: "6-1",
+        name: "Л.Сайнхүү",
+        certificates: [
+            "soccer ball clicker"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Л.Сайханзаяа",
+        certificates: [
+            "anger game"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "М.Баярцэцэг",
+        certificates: [
+            "anger game"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "М.Сарангуа",
+        certificates: [
+            "must play"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "О.Чингүүн",
+        certificates: [
+            "ping pong"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Ө.Даваа-Очир",
+        certificates: [
+            "clicker 4"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Т.Баттулга",
+        certificates: [
+            "coockie clicker"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Ц.Биндэръяа",
+        certificates: [
+            "lady egg"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Э.Хулангоо",
+        certificates: [
+            "platform"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "А.Мишээл",
+        certificates: [
+            "jimmys adventure"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Б.Номин-Эрдэнэ",
+        certificates: [
+            "delden gegdeehii"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Б.Төгөлдөр",
+        certificates: [
+            "delden gegdeehii"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Б.Тэмүүлэн",
+        certificates: [
+            "bumbulug unagah"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Б.Чингүүн",
+        certificates: [
+            "shooting zombie"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Г.Анударь",
+        certificates: [
+            "snake"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Г.Мөнхбилэг",
+        certificates: [
+            "үсрэлт"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Г.Цэцүүхэн",
+        certificates: [
+            "bumbugnuus bultah"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Д.Ган-Үжин",
+        certificates: [
+            ""
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "М.Гал",
+        certificates: [
+            ""
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "М.Есөн-Эрдэнэ",
+        certificates: [
+            "jumpman"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "М.Эгшиглэн",
+        certificates: [
+            "space waves"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "О.Бодьхүү",
+        certificates: [
+            "2 noob"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "О.Тэмүүлэн",
+        certificates: [
+            "shaar tsohig"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Т.Энхболд",
+        certificates: [
+            "shaar tsohig"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "У.Маргад",
+        certificates: [
+            ""
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Х.Тод-Эрдэнэ",
+        certificates: [
+            "uraldaanii mashin"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Х.Ууганбаяр",
+        certificates: [
+            "help"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Ш.Индра",
+        certificates: [
+            "😂 dardag togloom"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Э.Дэлгэрмөрөн",
+        certificates: [
+            "car racking game"
+        ],
+    },
+    {
+        grade: "6-2",
+        name: "Э.Хишигтөгөлдөр",
+        certificates: [
+            "zombie fight"
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "А.Цэлмүүн",
+        spoj:   "Бодлого-51 rank-7310",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Б.Төгөлдөр",
+        spoj: "Бодлого-89 rank-4646",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Б.Энхжин",
+        spoj: "Бодлого-95 rank-2797",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Д.Батмөнх",
+        spoj: "Бодлого-111 rank-1737",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Д.Баянмөнх",
+        spoj: "Бодлого-103 rank-2166",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Д.Номтхүү",
+        spoj: "Бодлого-? rank-?",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Д.Нуганбилэг",
+        spoj: "Бодлого-45 rank-8645",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Д.Хосшагай",
+        spoj: "Бодлого-111 rank-1793",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "М.Очир-Эрдэнэ",
+        spoj: "Бодлого-112 rank-1730",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "М.Очир-Эрдэнэ",
+        spoj: "Бодлого-112 rank-1730",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "М.Ялгуумхүү",
+        spoj: "Бодлого-40 rank-9249",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Т.Ану",
+        spoj: "Бодлого-102 rank-2218",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Т.Энх-Үжин",
+        spoj: "Бодлого-115 rank-1613",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Ц.Оргилсайхан",
+        spoj: "Бодлого-80 rank-3858",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-1",
+        name: "Э.Энх-Амгалан",
+        spoj: "Бодлого-103 rank-2179",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "А.Пүрэвжав",
+        spoj: "Бодлого-82 rank-3645",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Б.Дөлбадрах",
+        spoj: "Бодлого-122 rank-1373",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Б.Мөнхнасан",
+        spoj: "Бодлого-111 rank-1797",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Б.Эрдэмбилэг",
+        spoj: "Бодлого-50 rank-7378",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Б.Эрмүүн",
+        spoj: "Бодлого-103 rank-2167",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Б.Эрхэмбилэг",
+        spoj: "Бодлого-41 rank-8728",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "И.Чингүнсанаа",
+        spoj: "Бодлого-94 rank-2991",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Нарансолонго",
+        spoj: "Бодлого-146 rank-712",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "С.Индра",
+        spoj: "Бодлого-107 rank-1984",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Э.Намуунаа",
+        spoj: "Бодлого-196 rank-253",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Э.Чулгар",
+        spoj: "Бодлого-41 rank-8833",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Дэлгэрдалай",
+        spoj: "Бодлого-41 rank-8833",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Дэлгэрдалай",
+        spoj: "Бодлого-41 rank-8833",
+        certificates: [
+        ],
+    },
+    {
         grade: "11-2",
         name: "Д.Эрмүүн",
         certificates: [
@@ -120,7 +526,8 @@ function filterStudents() {
         const matchedStudent = studentData.find(s => s.grade === grade && s.name === selectedName);
         if (matchedStudent) {
             const certs = encodeURIComponent(JSON.stringify(matchedStudent.certificates || []));
-            window.location.href = `studentDetail.html?grade=${grade}&name=${encodeURIComponent(selectedName)}&certificates=${certs}`;
+            const spoj = encodeURIComponent(JSON.stringify(matchedStudent.spoj || []));
+            window.location.href = `studentDetail.html?grade=${grade}&name=${encodeURIComponent(selectedName)}&spoj=${spoj}&certificates=${certs}`;
         } else {
             alert("Сурагч олдсонгүй.");
         }
@@ -134,6 +541,7 @@ const params = new URLSearchParams(window.location.search);
 const grade = params.get('grade') || "";
 const name = params.get('name') || "";
 const certsRaw = params.get('certificates') || "[]";
+const spoj = params.get('spoj') || "[]";
 
 const certContainer = document.getElementById('certificatesContainer');
 const imageElement = document.getElementById('studentImage');
@@ -152,7 +560,7 @@ if (["6-1", "6-2"].includes(grade)) {
     certContainer.textContent = decodeURIComponent(certsRaw);
 } else if (["7-1", "7-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилтал";
-    certContainer.textContent = decodeURIComponent(certsRaw);
+    certContainer.textContent = decodeURIComponent(spoj);
 } else if (grade) {
     gradeTypeElement.innerHTML = "Сертификатууд:";
 

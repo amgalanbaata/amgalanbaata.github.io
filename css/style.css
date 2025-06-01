@@ -125,6 +125,17 @@ body {
 	background: yellow;
 }
 
+.homeSearch .indexSearchButton {
+	padding: 5px 20px;
+	background: #ffb262;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.homeSearch .indexSearchButton:hover {
+	background-color: #29293A;
+	transition: 0.5s;
+}
+
 .rd-navbar-main-outer {
 	background-color: #5a6bb5;
 }
