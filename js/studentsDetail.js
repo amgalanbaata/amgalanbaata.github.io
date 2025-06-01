@@ -7,6 +7,69 @@ const studentData = [
         ]
     },
     {
+        grade: "6-1",
+        name: "А.Мөнгөнзул",
+        certificates: [
+            "duck"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Аригбөх",
+        certificates: [
+            "coockie clicker"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Арми",
+        certificates: [
+            "flappy bird"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Болд-Оргил",
+        certificates: [
+            "sigma ronaldo"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Есүй",
+        certificates: [
+            "jumping"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Тэнүүнтөрч",
+        certificates: [
+            "jumping"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Хишигжаргал",
+        certificates: [
+            "change of clothes"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Б.Хүслэн",
+        certificates: [
+            "change of clothes"
+        ],
+    },
+    {
+        grade: "6-1",
+        name: "Г.Тэмүүлэн",
+        certificates: [
+            "change of clothes"
+        ],
+    },
+    {
         grade: "11-2",
         name: "Д.Эрмүүн",
         certificates: [
@@ -26,89 +89,98 @@ const studentData = [
 
 // Анги сонгоход тухайн ангийн нэрсийг оруулна
 function updateStudentNames() {
-    const grade = document.getElementById('searchGrade').value;
-    const nameSelect = document.getElementById('studentName');
+const selectedGrade = document.getElementById('searchGrade').value;
+const studentNameSelect = document.getElementById('studentName');
 
-    // өмнөх сонголтыг арилгах
-    nameSelect.innerHTML = '<option value="">--Нэр сонгох--</option>';
+// clear old options
+studentNameSelect.innerHTML = '<option value="">--Нэр сонгох--</option>';
 
-    // тухайн ангийн бүх сурагчдыг олох
-    const studentsInGrade = studentData.filter(s => s.grade === grade);
+if (!selectedGrade) return;
 
-    // нэр бүрээр option нэмэх
-    studentsInGrade.forEach(student => {
-        const option = document.createElement('option');
-        option.value = student.name;
-        option.textContent = student.name;
-        nameSelect.appendChild(option);
-    });
+const filteredStudents = studentData.filter(student => student.grade === selectedGrade);
+
+filteredStudents.forEach(student => {
+    const option = document.createElement('option');
+    option.value = student.name;
+    option.textContent = student.name;
+    studentNameSelect.appendChild(option);
+});
 }
 
 // Жишээ: хайлт хийх функц (нэр эсвэл ангиар)
 function filterStudents() {
     const grade = document.getElementById('searchGrade').value;
-    const name = document.getElementById('searchName').value.toLowerCase();
     const selectedName = document.getElementById('studentName').value;
 
-    const studentName = selectedName || name;
-
-    if (grade !== "" && studentName !== "") {
-        // Тухайн сурагчийг олно
-        const matchedStudent = studentData.find(s =>
-            s.grade === grade && s.name.toLowerCase() === studentName.toLowerCase()
-        );
-
+    if (grade && !selectedName) {
+        const studentsInGrade = studentData.filter(s => s.grade === grade);
+        const encodedData = encodeURIComponent(JSON.stringify(studentsInGrade));
+        window.location.href = `studentDetail.html?grade=${encodeURIComponent(grade)}&students=${encodedData}`;
+    } else if (grade && selectedName) {
+        const matchedStudent = studentData.find(s => s.grade === grade && s.name === selectedName);
         if (matchedStudent) {
-            const certs = matchedStudent.certificates || [];
-
-            // Сертификатуудыг JSON.stringify хийж encodeURIComponent ашиглана
-            const certificatesParam = encodeURIComponent(JSON.stringify(certs));
-
-            window.location.href = `studentDetail.html?grade=${grade}&name=${encodeURIComponent(studentName)}&certificates=${certificatesParam}`;
+            const certs = encodeURIComponent(JSON.stringify(matchedStudent.certificates || []));
+            window.location.href = `studentDetail.html?grade=${grade}&name=${encodeURIComponent(selectedName)}&certificates=${certs}`;
         } else {
-            alert("Тухайн сурагч олдсонгүй.");
+            alert("Сурагч олдсонгүй.");
         }
     } else {
-        alert("Анги болон нэрийг сонгоно уу.");
+        alert("Анги сонгоно уу.");
     }
 }
 
-// studentDetail page
-// URL-аас параметруудыг авна
+// URL параметруудыг авах
 const params = new URLSearchParams(window.location.search);
 const grade = params.get('grade') || "";
 const name = params.get('name') || "";
 const certsRaw = params.get('certificates') || "[]";
-// Зургийн нэрийг ангийн нэртэй уялдуулан динамик өгнө
-const imageElement = document.getElementById('studentImage');
-if (grade) {
-    imageElement.src = `images/${grade}${name}.jpg`;
-    console.log("grade: ", grade);
-} else {
-    imageElement.src = 'images/default.jpg'; // анги байхгүй бол default зураг
-}
-
-let certificates = [];
-try {
-    certificates = JSON.parse(decodeURIComponent(certsRaw));
-} catch (e) {
-    console.error("Сертификатыг задлахад алдаа гарлаа:", e);
-}
-
-// DOM руу утгуудыг оруулах
-document.getElementById('sectionTitle').textContent = `${grade} анги - ${name} сурагч`;
-document.getElementById('gradeText').textContent = `Анги: ${grade}`;
-document.getElementById('studentName').textContent = `Нэр: ${name}`;
 
 const certContainer = document.getElementById('certificatesContainer');
-if (certificates.length > 0) {
-    certificates.forEach((url, index) => {
-        const a = document.createElement('a');
-        a.href = url;
-        a.target = "_blank";
-        a.textContent = `Сертификат ${index + 1}`;
-        certContainer.appendChild(a);
-    });
+const imageElement = document.getElementById('studentImage');
+const gradeTypeElement = document.getElementById("gradeType");
+
+// Хувийн зураг оруулах
+if (grade) {
+    imageElement.src = `images/students/${grade}${name}.jpg`;
 } else {
-    certContainer.textContent = "Сертификат мэдээлэл алга.";
+    imageElement.src = 'images/default.jpg'; // анги байхгүй үед default зураг
 }
+
+// Сэдвийн гарчиг (gradeType) тогтоох
+if (["6-1", "6-2"].includes(grade)) {
+    gradeTypeElement.innerHTML = "Бүтээлийн Нэр:";
+    certContainer.textContent = decodeURIComponent(certsRaw);
+} else if (["7-1", "7-2"].includes(grade)) {
+    gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилтал";
+    certContainer.textContent = decodeURIComponent(certsRaw);
+} else if (grade) {
+    gradeTypeElement.innerHTML = "Сертификатууд:";
+
+    let certificates = [];
+    try {
+        certificates = JSON.parse(decodeURIComponent(certsRaw));
+    } catch (e) {
+        console.error("Сертификатыг задлахад алдаа гарлаа:", e);
+    }
+
+    if (Array.isArray(certificates) && certificates.length > 0) {
+        certificates.forEach((url, index) => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = "_blank";
+            a.textContent = `Сертификат${index + 1}, `;
+            certContainer.appendChild(a);
+        });
+    } else {
+        certContainer.textContent = "Сертификат мэдээлэл алга.";
+    }
+}
+
+// Ерөнхий мэдээллийг харуулах
+if (grade) {
+    document.getElementById('sectionTitle').textContent = `${grade} анги - ${name} сурагч`;
+    document.getElementById('gradeText').textContent = `Анги: ${grade}`;
+    document.getElementById('studentName').textContent = `Нэр: ${name}`;
+}
+
+
