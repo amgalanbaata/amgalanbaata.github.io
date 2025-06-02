@@ -125,6 +125,17 @@ body {
 	background: yellow;
 }
 
+.homeSearch .homeSelectSearch {
+	border: 1px solid #ffb262;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+
+.homeGalleryCardName strong {
+	color: #ffb262;
+}
+
 .homeSearch .indexSearchButton {
 	padding: 5px 20px;
 	background: #ffb262;

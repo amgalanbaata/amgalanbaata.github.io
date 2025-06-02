@@ -202,7 +202,7 @@
             <!-- home search -->
             <div class="wow fadeIn homeSearch" data-wow-delay=".4s">
               <h3>Сурагч Хайх</h3>
-              <select id="searchGrade" onchange="updateStudentNames()">
+              <select class="homeSelectSearch" id="searchGrade" onchange="updateStudentNames()">
                 <option onclick="className('')" value="">--Анги сонгох--</option>
                 <option onclick="className('6-1')" value="6-1">6-1</option>
                 <option value="6-2">6-2</option>
@@ -218,10 +218,9 @@
                 <option value="11-2">11-2</option>
                 <!-- <option value="12-1">12-1</option> -->
               </select>
-              <select id="studentName">
+              <select class="homeSelectSearch" id="studentName">
                 <option value="">--Нэр сонгох--</option>
               </select>
-              <!-- <input type="text" id="searchName" placeholder="Нэрээр хайх"> -->
               <button class="indexSearchButton" onclick="filterStudents()">Хайх</button>
             </div>
           </div>
@@ -235,11 +234,11 @@
             <div class="col-sm-6 col-lg-4 wow fadeIn">
               <!-- Post Minimal-->
               <div class="post-minimal">
-                <figure class="post-minimal-media"><a href="#"><img class="post-minimal-image" src="images/students/11-2Д.Эрмүүн.jpg" alt="" width="370" height="260"/></a></figure>
+                <figure class="post-minimal-media"><a href=""><img class="post-minimal-image" src="images/students/11-2Д.Эрмүүн.jpg" alt="" width="370" height="260"/></a></figure>
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">11-2 анги </li>
-                    <li class="list-inline-itema"><a href="#">Д.Эрмүүн</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>Д.Эрмүүн</strong></li>
                   </ul>
                 </div>
                 <h4 class="post-minimal-title"><a href="#">21 certificate</a></h4>
@@ -252,10 +251,10 @@
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">11-2 анги </li>
-                    <li class="list-inline-itema"><a href="#">Э.Маргар-Эрдэнэ</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>Э.Маргар-Эрдэнэ</strong></li>
                   </ul>
                 </div>
-                <h4 class="post-minimal-title"><a href="#">Төслийн менежер</a></h4>
+                <h4 class="post-minimal-title">Төслийн менежер</h4>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".4s">
@@ -265,7 +264,7 @@
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">11-1 анги </li>
-                    <li class="list-inline-itema"><a href="#">О.Бодьмөнхнаран</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>О.Бодьмөнхнаран</strong></li>
                   </ul>
                 </div>
                 <h4 class="post-minimal-title"><a href="#">Graphic Design Course</a></h4>
@@ -278,10 +277,10 @@
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">6-1 анги </li>
-                    <li class="list-inline-itema"><a href="#">Э.Аригбөх</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>Э.Аригбөх</strong></li>
                   </ul>
                 </div>
-                <h4 class="post-minimal-title"><a href="#">STEM-ROBOT champion</a></h4>
+                <h4 class="post-minimal-title">STEM-ROBOT champion</h4>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
@@ -291,7 +290,7 @@
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">8-2 анги </li>
-                    <li class="list-inline-itema"><a href="#">Б.Тэлмүүн</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>Б.Тэлмүүн</strong></li>
                   </ul>
                 </div>
                 <h4 class="post-minimal-title"><a href="#">Алгоритмын Аварга 2025</a></h4>
@@ -304,7 +303,7 @@
                 <div class="post-minimal-meta">
                   <ul class="list-inline">
                     <li class="list-inline-item">7-1 анги </li>
-                    <li class="list-inline-itema"><a href="#">М.Очир-Эрдэнэ</a></li>
+                    <li class="list-inline-itema homeGalleryCardName"><strong>М.Очир-Эрдэнэ</strong></li>
                   </ul>
                 </div>
                 <h4 class="post-minimal-title"><a href="#">Алгоритмын Аварга 2025</a></h4>
