@@ -304,8 +304,7 @@ const studentData = [
         grade: "7-1",
         name: "Д.Батмөнх",
         spoj: "Бодлого-111 rank-1737",
-        certificates: [
-        ],
+        certificates: "images/spoj-certificate/7-1Д.Батмөнх.png"
     },
     {
         grade: "7-1",
@@ -546,6 +545,7 @@ const spoj = params.get('spoj') || "[]";
 const certContainer = document.getElementById('certificatesContainer');
 const imageElement = document.getElementById('studentImage');
 const gradeTypeElement = document.getElementById("gradeType");
+const spojCerf = document.getElementById("spojCertificate");
 
 // Хувийн зураг оруулах
 if (grade) {
@@ -561,6 +561,9 @@ if (["6-1", "6-2"].includes(grade)) {
 } else if (["7-1", "7-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилтал";
     certContainer.textContent = decodeURIComponent(spoj);
+    if(certsRaw) {
+        spojCerf.src = `images/spoj-certificate/${grade}${name}.png`;
+    }
 } else if (grade) {
     gradeTypeElement.innerHTML = "Сертификатууд:";
 
