@@ -425,15 +425,253 @@ const studentData = [
     },
     {
         grade: "8-1",
-        name: "Б.Дэлгэрдалай",
-        spoj: "Бодлого-41 rank-8833",
+        name: "Ө.Ананд",
+        spoj: "Бодлого-71 rank-4561",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "М.Анунгоо",
+        spoj: "Бодлого-103 rank-2181",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Д.Ариунзаяа",
+        spoj: "Бодлого-77 rank-4068",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Ж.Билэгт",
+        spoj: "Бодлого-71 rank-4662",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "С.Бүжин",
+        spoj: "Бодлого-31 rank-10232",
         certificates: [
         ],
     },
     {
         grade: "8-1",
         name: "Б.Дэлгэрдалай",
-        spoj: "Бодлого-41 rank-8833",
+        spoj: "Бодлого-89 rank-3194",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Г.Мишээл",
+        spoj: "Бодлого-89 rank-3194",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "М.Мөнхдөл",
+        spoj: "Бодлого-90 rank-3189",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Г.Мөнхжаргал",
+        spoj: "Бодлого-102 rank-2235",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "О.Мэргэд-Эрдэнэ",
+        spoj: "Бодлого-105 rank-2083",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Номин",
+        spoj: "Мэдээлэл Олдсонгүй",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Н.Саяана",
+        spoj: "Бодлого-78 rank-4026",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Сэцэн",
+        spoj: "Бодлого-138 rank-913",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Г.Төгөлдөр",
+        spoj: "Бодлого-89 rank-3191",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Ц.Төгс-Эрдэнэ",
+        spoj: "Бодлого-100 rank-2410",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Түшиг",
+        spoj: "Бодлого-97 rank-2700",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Э.Хатанбаатар",
+        spoj: "Бодлого-110 rank-1792",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Н.Энэрэл",
+        spoj: "Мэдээлэл Олдсонгүй",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-1",
+        name: "Б.Эрдэнэ",
+        spoj: "Бодлого-45 rank-8600",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Т.Баттүшиг",
+        spoj: "Бодлого-44 rank-8439",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "А.Болор-Эрдэнэ",
+        spoj: "Бодлого-67 rank-4900",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Б.Бүжин",
+        spoj: "Бодлого-108 rank-1937",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Э.Бадрах",
+        spoj: "Бодлого-70 rank-4667",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Идэрхүлэг",
+        spoj: "Бодлого-45 rank-8600",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Марал",
+        spoj: "Бодлого-78 rank-4028",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Б.Мишээл",
+        spoj: "Бодлого-48 rank-7900",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Нандин-Эрдэнэ",
+        spoj: "Бодлого-101 rank-2290",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Сугар-Эрдэнэ",
+        spoj: "Мэдээлэл Олдсонгүй",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Б.Тэлмүүн",
+        spoj: "Бодлого-225 rank-166",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "О.Тэмүүжин",
+        spoj: "Бодлого-79 rank-3953",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Д.Тэргэл",
+        spoj: "Бодлого-67 rank-4939",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Б.Чингүүн",
+        spoj: "Мэдээлэл Олдсонгүй",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Э.Чингүүн",
+        spoj: "Мэдээлэл Олдсонгүй",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "М.Чингүүмаа",
+        spoj: "Бодлого-102 rank-2235",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Э.Эмүүжин",
+        spoj: "Бодлого-77 rank-4094",
+        certificates: [
+        ],
+    },
+    {
+        grade: "8-2",
+        name: "Б.Эрхэмбаяр",
+        spoj: "Бодлого-41 rank-8728",
         certificates: [
         ],
     },

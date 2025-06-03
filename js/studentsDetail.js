@@ -74,7 +74,7 @@ if (grade) {
 if (["6-1", "6-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Бүтээлийн Нэр:";
     certContainer.textContent = decodeURIComponent(scratch);
-    if(image == "image") {
+    if(image) {
         scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
         console.log("hooson: ", image);
         // console.log("image/6-scratch-images/6-1Б.Ангараг.png")
@@ -87,11 +87,15 @@ if (["6-1", "6-2"].includes(grade)) {
         spojCerf.src = `images/spoj-certificate/${grade}${name}.png`;
     }
 } else if (["7-1", "7-2"].includes(grade)) {
-    gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилтал";
+    gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилал";
     certContainer.textContent = decodeURIComponent(spoj);
     if(certsRaw) {
         spojCerf.src = `images/spoj-certificate/${grade}${name}.png`;
     }
+} else if(["8-1", "8-2"].includes(grade)) {
+    gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилал";
+    certContainer.textContent = decodeURIComponent(spoj);
+    spojCerf.src = `images/certificate-glade-8/${grade}${name}.jpg`;
 } else if (grade) {
     gradeTypeElement.innerHTML = "Сертификатууд:";
 
@@ -121,5 +125,45 @@ if (grade) {
     document.getElementById('gradeText').textContent = `Анги: ${grade}`;
     document.getElementById('studentName').textContent = `Нэр: ${name}`;
 }
+
+
+
+
+
+
+// class-6-detail.js
+
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("studentCards");
+
+    console.log("studentData: ", studentData)
+    // Зөвхөн 6-1 ангийн сурагчдыг шүүж авна
+    const students = studentData.filter(s => s.grade === "6-1");
+
+    students.forEach(student => {
+        const card = document.createElement("div");
+        card.className = "col-sm-6 col-lg-4 wow fadeIn";
+        card.innerHTML = `
+            <div class="post-minimal">
+                <figure class="post-minimal-media">
+                    <a href="#">
+                        <img class="post-minimal-image" src="${student.image}" alt="${student.name}" width="370" height="260"/>
+                    </a>
+                </figure>
+                <div class="post-minimal-meta">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">${student.grade} анги</li>
+                        <li class="list-inline-itema"><a href="#">${student.name}</a></li>
+                    </ul>
+                </div>
+                <h6 class="post-minimal-title">Scratch Хялбар Програмчлал</h6>
+                <h6 class="post-minimal-title">Тоглоом бүтээх</h6>
+                <h6 class="post-minimal-title">нэр: <strong>${student.scratch}</strong></h6>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+});
+
 
 
