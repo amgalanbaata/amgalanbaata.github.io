@@ -439,6 +439,8 @@ mark,
 .list-inline {
 	padding-left: 0;
 	list-style: none;
+	width: 90%;
+	margin: auto;
 }
 
 .list-inline-item {

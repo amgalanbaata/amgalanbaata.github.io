@@ -130,7 +130,6 @@ if (grade) {
 
 
 
-
 // class-6-detail.js
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -3242,7 +3242,8 @@ textarea.form-input {
 
 .post-minimal-image {
 	display: block;
-	width: 100%;
+	width: 90%;
+	margin: auto;
 	border-radius: 4px;
 }
 
@@ -3288,6 +3289,8 @@ textarea.form-input {
 
 * + .post-minimal-title {
 	margin-top: 5px;
+	width: 90%;
+	margin: auto;
 }
 
 .post-minimal {
@@ -9237,7 +9240,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #828590;
 	border-bottom: 1px solid #eff2f4;
-	background: #5a6bb5;
+	background: #ffffff;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
