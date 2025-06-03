@@ -3,7 +3,7 @@ const studentData = [
         grade: "6-1",
         name: "Б.Ангараг",
         scratch: "shooter",
-        image: "",
+        image: "image",
     },
     {
         grade: "6-1",
