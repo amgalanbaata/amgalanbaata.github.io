@@ -56,8 +56,10 @@ const scratch = params.get('scratch') || "";
 const img = params.get('image') === "true";
 
 const certContainer = document.getElementById('certificatesContainer');
+const certContainer8 = document.getElementById('certificatesContainer8');
 const imageElement = document.getElementById('studentImage');
 const gradeTypeElement = document.getElementById("gradeType");
+const gradeTypeElement8 = document.getElementById("gradeType8");
 const spojCerf = document.getElementById("spojCertificate");
 const scratchWork = document.getElementById("scratchWork");
 // Хувийн зураг оруулах
@@ -90,6 +92,28 @@ if (["6-1", "6-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилал";
     certContainer.textContent = decodeURIComponent(spoj);
     spojCerf.src = `images/certificate-glade-8/${grade}${name}.jpg`;
+    if (grade) {
+        gradeTypeElement8.innerHTML = "Сертификатууд:";
+
+        let certificates = [];
+        try {
+            certificates = JSON.parse(decodeURIComponent(certsRaw));
+        } catch (e) {
+            console.error("Сертификатыг задлахад алдаа гарлаа:", e);
+        }
+
+        if (Array.isArray(certificates) && certificates.length > 0) {
+            certificates.forEach((url, index) => {
+                const a = document.createElement('a');
+                a.href = url;
+                a.target = "_blank";
+                a.textContent = `Сертификат${index + 1}, `;
+                certContainer8.appendChild(a);
+            });
+        } else {
+            // certContainer8.textContent = "Сертификат мэдээлэл алга.";
+        }
+    }
 } else if (grade) {
     gradeTypeElement.innerHTML = "Сертификатууд:";
 

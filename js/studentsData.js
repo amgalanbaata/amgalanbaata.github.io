@@ -505,6 +505,9 @@ const studentData = [
         name: "Б.Сэцэн",
         spoj: "Бодлого-138 rank-913",
         certificates: [
+            "https://www.sololearn.com/certificates/CC-FQNKRI7E",
+            "https://www.sololearn.com/certificates/CC-EGPZGDJ9",
+            "https://www.sololearn.com/certificates/CC-BKQJAGCA"
         ],
     },
     {
@@ -980,9 +983,9 @@ const studentData = [
         grade: "11-1",
         name: "А.Амарболд",
         certificates: [
-            "https://www.sololearn.com/certificates/CC-GXMTCCYH",
-            "https://www.sololearn.com/certificates/CC-8OJSJ0LE",
-            "https://www.sololearn.com/certificates/CC-EL5QVHLH",
+            "images/certificate-images-11-1/Амарболд-css",
+            "images/certificate-images-11-1/Амарболд-html",
+            "images/certificate-images-11-1/Амарболд-js",
         ]
     },
     {
