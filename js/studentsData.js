@@ -3,13 +3,13 @@ const studentData = [
         grade: "6-1",
         name: "Б.Ангараг",
         scratch: "shooter",
-        image: "image",
+        image: false,
     },
     {
         grade: "6-1",
         name: "А.Мөнгөнзул",
         scratch: "duck",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
@@ -18,103 +18,103 @@ const studentData = [
         certificates: [
             "images/spoj-certificate/6-1Э.Аригбөх.png"
         ],
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Арми",
         scratch: "flappy bird",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Болд-Оргил",
         scratch: "sigma ronaldo",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Есүй",
         scratch: "jumping",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Тэнүүнтөрч",
         scratch: "jumping",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Хишигжаргал",
         scratch: "change of clothes",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Б.Хүслэн",
         scratch: "change of clothes",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Г.Тэмүүлэн",
         scratch: "change of clothes",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Л.Сайнхүү",
         scratch: "soccer ball clicker",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Л.Сайханзаяа",
         scratch: "anger game",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "М.Баярцэцэг",
         scratch: "anger game",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "М.Сарангуа",
         scratch: "must play",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "О.Чингүүн",
         scratch: "ping pong",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Ө.Даваа-Очир",
         scratch: "clicker 4",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Т.Баттулга",
         scratch: "coockie clicker",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Ц.Биндэръяа",
         scratch: "lady egg",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-1",
         name: "Э.Хулангоо",
         scratch: "platform",
-        image: "image",
+        image: true,
     },
     {
         grade: "6-2",
@@ -397,7 +397,7 @@ const studentData = [
     },
     {
         grade: "7-2",
-        name: "Нарансолонго",
+        name: "Н.Нарансолонго",
         spoj: "Бодлого-146 rank-712",
         certificates: [
         ],
@@ -921,7 +921,9 @@ const studentData = [
     grade: "11-2",
         name: "Ихгазар",
         certificates: [
-
+            "https://www.sololearn.com/certificates/CC-LJKFIIFF",
+            "https://www.sololearn.com/certificates/CC-QSAXUMFS",
+            "https://www.sololearn.com/certificates/CC-4QOO99NN"
         ]
     },
     {

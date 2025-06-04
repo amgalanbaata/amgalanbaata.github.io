@@ -1,8 +1,6 @@
-console.log(studentData); // шалгах
-
 // filter хийх жишээ
 const studentsInGrade = studentData.filter(s => s.grade === "6-1");
-console.log(studentsInGrade);
+// console.log(studentsInGrade);
 // Анги сонгоход тухайн ангийн нэрсийг оруулна
 function updateStudentNames() {
     const selectedGrade = document.getElementById('searchGrade').value;
@@ -38,7 +36,7 @@ function filterStudents() {
             const certs = encodeURIComponent(JSON.stringify(matchedStudent.certificates || []));
             const spoj = encodeURIComponent(JSON.stringify(matchedStudent.spoj || []));
             const scratch = encodeURIComponent(JSON.stringify(matchedStudent.scratch || []));
-            const image = encodeURIComponent(JSON.stringify(matchedStudent.image || ""));
+            const image = matchedStudent.image === true;
             window.location.href = `studentDetail.html?grade=${grade}&name=${encodeURIComponent(selectedName)}&image=${image}&scratch=${scratch}&spoj=${spoj}&certificates=${certs}`;
         } else {
             alert("Сурагч олдсонгүй.");
@@ -55,32 +53,28 @@ const name = params.get('name') || "";
 const certsRaw = params.get('certificates') || "[]";
 const spoj = params.get('spoj') || "[]";
 const scratch = params.get('scratch') || "";
-const image = params.get('image') || "";
+const img = params.get('image') === "true";
 
 const certContainer = document.getElementById('certificatesContainer');
 const imageElement = document.getElementById('studentImage');
 const gradeTypeElement = document.getElementById("gradeType");
 const spojCerf = document.getElementById("spojCertificate");
 const scratchWork = document.getElementById("scratchWork");
-
 // Хувийн зураг оруулах
 if (grade) {
     imageElement.src = `images/students/${grade}${name}.jpg`;
 } else {
     imageElement.src = 'images/default.jpg'; // анги байхгүй үед default зураг
 }
-
 // Сэдвийн гарчиг (gradeType) тогтоох
 if (["6-1", "6-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Бүтээлийн Нэр:";
     certContainer.textContent = decodeURIComponent(scratch);
-    if(image) {
+    console.log(img)
+    if (img === true) {
         scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
-        console.log("hooson: ", image);
-        // console.log("image/6-scratch-images/6-1Б.Ангараг.png")
     } else {
         scratchWork.src = "images/6-scratch-images/scratch-default.png";
-        console.log(image);
     }
     if(certsRaw) {
         // scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
@@ -135,7 +129,7 @@ if (grade) {
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("studentCards");
 
-    console.log("studentData: ", studentData)
+    // console.log("studentData: ", studentData)
     // Зөвхөн 6-1 ангийн сурагчдыг шүүж авна
     const students = studentData.filter(s => s.grade === "6-1");
 
