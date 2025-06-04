@@ -306,13 +306,6 @@ const studentData = [
     },
     {
         grade: "7-1",
-        name: "М.Очир-Эрдэнэ",
-        spoj: "Бодлого-112 rank-1730",
-        certificates: [
-        ],
-    },
-    {
-        grade: "7-1",
         name: "М.Ялгуумхүү",
         spoj: "Бодлого-40 rank-9249",
         certificates: [
