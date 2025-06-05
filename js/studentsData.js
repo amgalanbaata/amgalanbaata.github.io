@@ -964,7 +964,6 @@ const studentData = [
         grade: "11-1",
         name: "Б.Билгүүн",
         certificates: [
-
         ]
     },
     {
@@ -983,37 +982,40 @@ const studentData = [
         grade: "11-1",
         name: "А.Амарболд",
         certificates: [
-            "images/certificate-images-11-1/Амарболд-css",
-            "images/certificate-images-11-1/Амарболд-html",
-            "images/certificate-images-11-1/Амарболд-js",
+            "images/certificate-images-11-1/11-1Амарболд-css.jpg",
+            "images/certificate-images-11-1/11-1Амарболд-html.jpg",
+            "images/certificate-images-11-1/11-1Амарболд-js.jpg",
         ]
     },
     {
         grade: "11-1",
         name: "Э.Од-Эрдэнэ",
         certificates: [
-            "https://www.sololearn.com/certificates/CC-GJQZT7GU",
-            "https://www.sololearn.com/certificates/CC-JS9K52GX",
-            "https://www.sololearn.com/certificates/CC-IHEABOEB",
+            "images/certificate-images-11-1/11-1Од-Эрдэнэ-css.jpg",
+            "images/certificate-images-11-1/11-1Од-Эрдэнэ-html.jpg",
+            "images/certificate-images-11-1/11-1Од-Эрдэнэ-js.jpg",
         ]
     },
     {
         grade: "11-1",
         name: "Д.Анужин",
         certificates: [
-            "https://blob.sololearn.com/certificates/acb65359-46f5-4f2c-a643-7ffc19ab93ec.pdf",
-            "https://blob.sololearn.com/certificates/33fa621f-bf7f-4ea6-ab71-4280e0c9b773.pdf",
-            "https://api2.sololearn.com/v2/certificates/CC-EKGHB0IL/image/pdf?t=638794377592077570",
-            "https://api2.sololearn.com/v2/certificates/CC-A2HFYWF0/image/pdf?t=638794399687437560",
-            "https://api2.sololearn.com/v2/certificates/CC-NOI0T9OZ/image/pdf?t=638794443439551780",
-            "https://api2.sololearn.com/v2/certificates/CC-9KSPAECM/image/pdf?t=638794463756076880",
-            "https://api2.sololearn.com/v2/certificates/CC-WSWPAYF9/image/pdf?t=638812545089796360",
+            "https://www.sololearn.com/certificates/CC-9KSPAECM",
+            "https://www.sololearn.com/certificates/CC-WSWPAYF9",
+            "https://www.sololearn.com/certificates/CC-NOI0T9OZ",
+            "https://www.sololearn.com/certificates/CC-XIGVJ4G7",
+            "https://www.sololearn.com/certificates/CC-EKGHB0IL",
+            "https://www.sololearn.com/certificates/CC-A2HFYWF0",
+            "https://www.sololearn.com/certificates/CC-UOHM7C0W",
         ]
     },
     {
         grade: "11-1",
         name: "О.Бодьмөнхнаран",
         certificates: [
+            "images/certificate-images-11-1/11-1Бодьмөнхнаран-css.jpg",
+            "images/certificate-images-11-1/11-1Бодьмөнхнаран-html.jpg",
+            "images/certificate-images-11-1/11-1Бодьмөнхнаран-js.jpg",
         ]
     },
     {
@@ -1041,24 +1043,35 @@ const studentData = [
         grade: "11-1",
         name: "У.Хүслэн",
         certificates: [
+            "images/certificate-images-11-1/11-1Хүслэн-css.jpg",
+            "images/certificate-images-11-1/11-1Хүслэн-js.jpg",
         ]
     },
     {
         grade: "11-1",
         name: "Е.Нартулга",
         certificates: [
+            // "images/certificate-images-11-1/11-1Нартулга-css.jpg",
+            // "images/certificate-images-11-1/11-1Нартулга-js.jpg",
+            // "images/certificate-images-11-1/11-1Нартулга-html.jpg",
         ]
     },
     {
         grade: "11-1",
         name: "Б.Анужин",
         certificates: [
+            "images/certificate-images-11-1/11-1НАнужин-css.jpg",
+            // "images/certificate-images-11-1/11-1НАнужин-js.jpg",
+            "images/certificate-images-11-1/11-1НАнужин-html.jpg",
         ]
     },
     {
         grade: "11-1",
         name: "О.Халиунболд",
         certificates: [
+            "images/certificate-images-11-1/11-1Халиунболд-css.jpg",
+            "images/certificate-images-11-1/11-1Халиунболд-js.jpg",
+            "images/certificate-images-11-1/11-1Халиунболд-html.jpg",
         ]
     },
     {
@@ -1074,6 +1087,9 @@ const studentData = [
         grade: "11-1",
         name: "М.Гончигсүрэн",
         certificates: [
+            "images/certificate-images-11-1/11-1Гончигсүрэн-css.jpg",
+            "images/certificate-images-11-1/11-1Гончигсүрэн-js.jpg",
+            "images/certificate-images-11-1/11-1Гончигсүрэн-html.jpg",
         ]
     },
     {
@@ -1095,6 +1111,9 @@ const studentData = [
         grade: "11-1",
         name: "П.Маргад",
         certificates: [
+            "images/certificate-images-11-1/11-1Маргад-css.jpg",
+            "images/certificate-images-11-1/11-1Маргад-js.jpg",
+            "images/certificate-images-11-1/11-1Маргад-html.jpg",
         ]
     },
     {
