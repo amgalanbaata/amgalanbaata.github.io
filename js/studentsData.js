@@ -1031,12 +1031,12 @@ const studentData = [
         grade: "11-1",
         name: "Ш.Амарсайхан",
         certificates: [
-            "https://blob.sololearn.com/certificates/8fbcd6e7-a734-4303-94a7-77a855cfeb02.pdf",
-            "https://blob.sololearn.com/certificates/2e1cdb0b-a044-4872-899e-88d10191594c.pdf",
-            "https://api2.sololearn.com/v2/certificates/CC-REKWRZOO/image/pdf?t=638817490777468060",
-            "https://blob.sololearn.com/certificates/3f5b38a8-a466-4226-992a-1a735e3888ea.pdf",
-            "https://blob.sololearn.com/certificates/486693fd-7f9b-4dd5-8aea-205e62078bc9.pdf",
-            "https://blob.sololearn.com/certificates/255b72e8-c98d-44d5-8a06-3ed9fde6ff4f.pdf",
+            "https://www.sololearn.com/certificates/CC-KQFVSRE1",
+            "https://www.sololearn.com/certificates/CC-PNXBTLLP",
+            "https://www.sololearn.com/certificates/CC-REKWRZOO",
+            "https://www.sololearn.com/certificates/CC-UC5YFAJE",
+            "https://www.sololearn.com/certificates/CC-O1CCRVGC",
+            "https://www.sololearn.com/certificates/CC-BGBTIEHI",
         ]
     },
     {
