@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(gradesToShow);
     const students = studentData.filter(s => gradesToShow.includes(s.grade));
     // Гарчгийг динамик болгох
-    gradeTitle.innerText = `Программ хангамж ${gradeParam}-р анги сурагчдын бүтээл`;
+    gradeTitle.innerText = `Программ хангамж ${gradeParam}-р анги сурагчдын амжилт`;
 
     students.forEach(student => {
         const card = document.createElement("div");
