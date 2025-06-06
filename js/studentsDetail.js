@@ -230,7 +230,7 @@ if (grade) {
 
 function fixingPage(n) {
     if(n == 0) {
-        alert("Хуудас засвартай байна");
+        alert("not yet developing page");
     }
 }
 
