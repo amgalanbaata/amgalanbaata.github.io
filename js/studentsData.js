@@ -680,7 +680,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Шижир Амжилт",
+    name: "Ш.Амжилт",
     certificates: [
         "https://www.sololearn.com/certificates/CC-R95ERVAA",
         "https://www.sololearn.com/certificates/CC-VVAEFOPZ",
@@ -690,7 +690,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Мөнхбаяр Базаррагчаа",
+    name: "М.Базаррагчаа",
     certificates: [
         "https://www.sololearn.com/certificates/CC-YASKUZIZ",
         "https://www.sololearn.com/certificates/CC-D0GFHLR7",
@@ -706,7 +706,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Ганбаатар Бумбаяр",
+    name: "Г.Бумбаяр",
     certificates: [
         "https://www.sololearn.com/certificates/CC-RUET4NKB",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -715,7 +715,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Сандуй Ирмүүн",
+    name: "С.Ирмүүн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-SOX5WSRL",
         "https://www.sololearn.com/certificates/CC-TERH2AJC",
@@ -725,7 +725,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Мягмарсүрэн Итгэлтбаатар",
+    name: "М.Итгэлтбаатар",
     certificates: [
         "https://www.sololearn.com/certificates/CC-NBL57P9A",
         "https://www.sololearn.com/certificates/CC-64OQOUWX",
@@ -735,7 +735,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Э Маргалгуа",
+    name: "Э.Маргалгуа",
     certificates: [
         "https://www.sololearn.com/certificates/CC-EXPTDOGS",
         "https://www.sololearn.com/certificates/CC-GNM7ZGGY",
@@ -744,7 +744,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Амартүвшин Мөнгөнсүлд",
+    name: "А.Мөнгөнсүлд",
     certificates: [
         "https://www.sololearn.com/certificates/CC-VMW0G3FB",
         "https://www.sololearn.com/certificates/CC-5T6SHEQZ",
@@ -761,7 +761,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Мөнхжаргал Мөнхбаясгалан",
+    name: "М.Мөнхбаясгалан",
     certificates: [
         "https://www.sololearn.com/certificates/CC-CFIROUD2",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -769,7 +769,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Баттүвшин Мөнххүслэн",
+    name: "Б.Мөнххүслэн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-SHFWVXEK",
         "https://www.sololearn.com/certificates/CC-AXZI5SRG",
@@ -777,7 +777,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Баяраа Отгон-Эрдэнэ",
+    name: "Б.Отгон-Эрдэнэ",
     certificates: [
         "https://www.sololearn.com/certificates/CC-SHFWVXEK",
         "https://www.sololearn.com/certificates/CC-8CDT5JXL",
@@ -785,14 +785,14 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Баянтогтох Пүрэвбат",
+    name: "Б.Пүрэвбат",
     certificates: [
         "https://www.sololearn.com/certificates/CC-BQCFM68E",
     ]
     },
     {
     grade: "9-1",
-    name: "А Сэцэн-Гүнж",
+    name: "А.Сэцэн-Гүнж",
     certificates: [
         "https://www.sololearn.com/certificates/CC-RUET4NKB",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -800,14 +800,14 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Баянмөнх Хишигдарь",
+    name: "Б.Хишигдарь",
     certificates: [
         "https://www.sololearn.com/certificates/CC-QWOMSX1J",
     ]
     },
     {
     grade: "9-1",
-    name: "Chinzaya Хосбилэг",
+    name: "Ч.Хосбилэг",
     certificates: [
         "https://www.sololearn.com/certificates/CC-TEA0RQ3A",
         "https://docs.google.com/spreadsheets/d/1EoQTt2NDP4wMjJwlHMyA7iSyfTsPSuK7JXNi25HwgtE/edit?usp=sharing",
@@ -816,7 +816,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Энхсайхан Эгшиглэн",
+    name: "Э.Эгшиглэн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-LXHMQQWL",
         "https://docs.google.com/spreadsheets/d/1EoQTt2NDP4wMjJwlHMyA7iSyfTsPSuK7JXNi25HwgtE/edit?usp=sharing",
@@ -824,7 +824,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Эрдэнэбаяр Энхмэнд",
+    name: "Э.Энхмэнд",
     certificates: [
         "https://www.sololearn.com/certificates/CC-RUET4NKB",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -834,7 +834,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Баясгалан Нандин-Эрдэнэ",
+    name: "Б.Нандин-Эрдэнэ",
     certificates: [
         "https://www.sololearn.com/certificates/CC-RUET4NKB",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -850,7 +850,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Мягмарсүрэн Манлай",
+    name: "М.Манлай",
     certificates: [
         "https://www.sololearn.com/certificates/CC-J1AZUKHR",
         "https://www.sololearn.com/certificates/CC-MHSDFIJH",
@@ -858,7 +858,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Мөнхбат Бархасбадь",
+    name: "М.Бархасбадь",
     certificates: [
         "https://www.sololearn.com/certificates/CC-BUNIBFEH",
         "https://www.sololearn.com/certificates/CC-FX9PJCSF",
@@ -867,16 +867,15 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Эгшиглэн",
+    name: "Г.Эгшиглэн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-UGVLIXAN",
         "https://www.sololearn.com/certificates/CC-MHSDFIJH",
     ]
     },
-
     {
     grade: "9-2",
-    name: "Пүрэвсүрэн",
+    name: "А.Пүрэвсүрэн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-3QU5N45Z",
         "https://www.sololearn.com/certificates/CC-NKX9UXAT",
@@ -886,7 +885,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Мөнхбаатар",
+    name: "Б.Мөнхбаатар",
     certificates: [
         "https://www.sololearn.com/en/learn/courses/python-developer?location=2",
         "https://www.sololearn.com/en/learn/courses/python-introduction?location=2",
@@ -894,7 +893,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Мишээл",
+    name: "Б.Мишээл",
     certificates: [
         "https://www.sololearn.com/certificates/CC-VDCQRVL2",
         "https://www.sololearn.com/certificates/CC-QAA93TAM",
@@ -905,7 +904,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Содмэргэн Тэмүүлэнжав",
+    name: "С.Тэмүүлэнжав",
     certificates: [
         "https://www.sololearn.com/certificates/CC-UGVLIXAN",
         "https://www.sololearn.com/certificates/CC-MHSDFIJH",
@@ -913,7 +912,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Батсүх Энхтуяа",
+    name: "Б.Энхтуяа",
     certificates: [
         "https://www.sololearn.com/certificates/CC-UGVLIXAN",
         "https://www.sololearn.com/certificates/CC-MHSDFIJH",
@@ -921,7 +920,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Баясгалан Анунгоо",
+    name: "Б.Анунгоо",
     "certificates": [
         "https://www.sololearn.com/certificates/CC-CQFSE1TJ",
         "https://www.sololearn.com/certificates/CC-UULWPNO3",
@@ -929,7 +928,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Батбаяр Ариунболд",
+    name: "Б.Ариунболд",
     certificates: [
         "https://www.sololearn.com/certificates/CC-FNSS8B2W",
         "https://www.sololearn.com/certificates/CC-IBEAETWX",
@@ -937,7 +936,7 @@ const studentData = [
     },
     {
     grade: "9-2",
-    name: "Даландэлгэр Чинхүслэн",
+    name: "Д.Чинхүслэн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-HGKICMST",
         "https://www.sololearn.com/certificates/CC-GXSHCDBJ",
@@ -945,7 +944,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Ербиш Балжинням",
+        name: "Е.Балжинням",
         certificates: [
         "https://www.sololearn.com/certificates/CC-JLS2YMTK",
         "https://www.sololearn.com/certificates/CC-JGGLP0SX",
@@ -953,7 +952,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Гантулга Гэгээн-Анир",
+        name: "Г.Гэгээн-Анир",
         certificates: [
         "https://www.sololearn.com/certificates/CC-AHVAIYYG",
         "https://www.sololearn.com/certificates/CC-LADCHSDW",
@@ -964,7 +963,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Төрболд Энхжин",
+        name: "Т.Энхжин",
         certificates: [
         "https://www.sololearn.com/certificates/CC-7HLUH5CP",
         "https://www.sololearn.com/certificates/CC-LG2YJBBU",
@@ -972,7 +971,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Сугардорж Төрмөнх",
+        name: "С.Төрмөнх",
         certificates: [
         "https://www.sololearn.com/certificates/CC-UGVLIXAN",
         "https://www.sololearn.com/certificates/CC-MHSDFIJH",
@@ -980,7 +979,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Мөнхцэцэг Тэмүүжин",
+        name: "М.Тэмүүжин",
         certificates: [
         "https://www.sololearn.com/certificates/CC-XLK4PYCV",
         "https://www.sololearn.com/certificates/CC-OX8G4MRQ",
@@ -988,7 +987,7 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "Баасандорж Ням-эрдэнэ",
+        name: "Б.Ням-эрдэнэ",
         certificates: [
         "https://www.sololearn.com/certificates/CC-ID5YX4YM",
         "https://www.sololearn.com/certificates/CC-ZHA9WUTI",
@@ -996,14 +995,14 @@ const studentData = [
     },
     {
         grade: "9-2",
-        name: "LI Yuhin",
+        name: "Шиншин",
         certificates: [
         "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
         ]
     },
     {
         grade: "10-1",
-        name: "Түвшинжаргал",
+        name: "Т.Эрдэнэ-Очир",
         certificates: [
         "https://www.sololearn.com/certificates/CC-WTW87RJJ",
         "https://www.sololearn.com/certificates/CC-N6C67GMG",
@@ -1012,7 +1011,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Мөнхбаяр Мөнх-Ариун",
+        name: "М.Мөнх-Ариун",
         certificates: [
         "https://www.sololearn.com/certificates/CC-MHCVEOBB",
         "https://www.sololearn.com/certificates/CC-30ZJ64QU",
@@ -1023,7 +1022,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Бат-Орших Бат-Эрдэнэ",
+        name: "Б.Бат-Эрдэнэ",
         certificates: [
         "https://www.sololearn.com/certificates/CC-ELZ29GCP",
         "https://www.sololearn.com/certificates/CC-MSJC6HFU",
@@ -1034,7 +1033,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Ганболд Долгион",
+        name: "Г.Долгион",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-E1MFG74O",
@@ -1042,7 +1041,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Батнасан Оюу",
+        name: "Б.Оюу",
         certificates: [
         "https://www.sololearn.com/certificates/CC-9KU0OHYS",
         "https://www.sololearn.com/certificates/CC-F6FYPNPL",
@@ -1051,7 +1050,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Алтантулга Мөрөн",
+        name: "А.Мөрөн",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-E1MFG74O",
@@ -1059,7 +1058,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Энхбаатар Зоригт",
+        name: "Э.Зоригт",
         certificates: [
         "https://www.sololearn.com/certificates/CC-OMLBDFAR",
         "https://www.sololearn.com/certificates/CC-DVGVK06F",
@@ -1067,7 +1066,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Чинзориг Буянтогтох",
+        name: "Ч.Буянтогтох",
         certificates: [
         "https://www.sololearn.com/certificates/CC-KQPHCPUB",
         "https://www.sololearn.com/certificates/CC-HATQNCZK",
@@ -1075,7 +1074,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Ганбат Ганчимэг",
+        name: "Г.Ганчимэг",
         certificates: [
         "https://www.sololearn.com/certificates/CC-JVFNUEFB",
         "https://www.sololearn.com/certificates/CC-0FCWGXRF",
@@ -1086,7 +1085,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Батзул Арвин-Эрдэнэ",
+        name: "Б.Арвин-Эрдэнэ",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-E1MFG74O",
@@ -1094,7 +1093,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Цогтсайхан Оргилболд",
+        name: "Ц.Оргилболд",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-5JIBKTQ8",
@@ -1103,7 +1102,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Чин Асуру",
+        name: "Ч.Асуру",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-E1MFG74O",
@@ -1130,7 +1129,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Гөлөгдэмбэрэл Есөнтэнгэр",
+        name: "Г.Есөнтэнгэр",
         certificates: [
         "https://www.sololearn.com/certificates/CC-IPKLU8PE",
         "https://www.sololearn.com/certificates/CC-55JP7A9Z",
@@ -1141,7 +1140,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Оргил Дүүрэндалай",
+        name: "О.Дүүрэндалай",
         certificates: [
         "https://www.sololearn.com/certificates/CC-XVDG1YHZ",
         "https://www.sololearn.com/certificates/CC-YJK1GWMM",
@@ -1152,7 +1151,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Энхболд Эрхэмбилэг",
+        name: "Э.Эрхэмбилэг",
         certificates: [
         "https://www.sololearn.com/certificates/CC-WWBIBOHE",
         "https://www.sololearn.com/certificates/CC-NK16Q1VX",
@@ -1160,7 +1159,7 @@ const studentData = [
     },
     {
         grade: "10-1",
-        name: "Ариунбат Нарантүшиг",
+        name: "А.Нарантүшиг",
         certificates: [
         "https://www.sololearn.com/certificates/CC-FPHW2SQF",
         "https://www.sololearn.com/certificates/CC-E1MFG74O",
@@ -1168,7 +1167,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Минжин",
+    name: "Н.Минжин",
     certificates: [
         "https://www.sololearn.com/en/certificates/CC-XT69KKRB https://www.sololearn.com/certificates/CC-6BSNQNAG",
         "https://www.sololearn.com/en/certificates/CC-XT69KKRB",
@@ -1176,7 +1175,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Анар-Эрдэнэ",
+    name: "Б.Анар-Эрдэнэ",
     certificates: [
         "https://www.sololearn.com/en/certificates/CC-VXLWHVGJ",
         "https://www.sololearn.com/certificates/CC-8QDR2XQS",
@@ -1184,7 +1183,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Баттулга",
+    name: "Х.Баттулга",
     certificates: [
         "https://www.sololearn.com/certificates/CC-IZAO5RTA",
         "https://www.sololearn.com/certificates/CC-RM9NTPGB",
@@ -1192,7 +1191,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Билгүүн",
+    name: "М.Билгүүн",
     certificates: [
         "https://www.sololearn.com/certificates/CC-HVPXJDNP",
         "https://www.sololearn.com/en/certificates/CC-XT69KKRB",
@@ -1201,7 +1200,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Ган-Эрдэнэ",
+    name: "У.Ган-Эрдэнэ",
     certificates: [
         "https://www.sololearn.com/certificates/CC-4PYWKOFK",
         "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
@@ -1209,7 +1208,7 @@ const studentData = [
     },
     {
     grade: "10-2",
-    name: "Гүнжинлхам",
+    name: "Б.Гүнжинлхам",
     certificates: [
         "https://www.sololearn.com/certificates/CC-XUFAWXRV",
         "https://www.sololearn.com/certificates/CC-DJJPWXQU",
@@ -1218,7 +1217,7 @@ const studentData = [
 
     {
     grade: "10-2",
-    name: "Гэрэлтуяа",
+    name: "Э.Гэрэлтуяа",
     certificates: [
         "https://www.sololearn.com/certificates/CC-VVZJJCKL",
         "https://www.sololearn.com/certificates/CC-L7BRX74I",
@@ -1227,7 +1226,7 @@ const studentData = [
 
     {
     grade: "10-2",
-    name: "Мөнх-Учрал",
+    name: "М.Мөнх-Учрал",
     certificates: [
         "https://www.sololearn.com/certificates/CC-2OC45FAG",
         "https://www.sololearn.com/certificates/CC-TQSTDJRM",
@@ -1238,75 +1237,68 @@ const studentData = [
 
     {
         grade: "10-2",
-        name: "Мөнхтөр",
+        name: "Э.Мөнхтөр",
         certificates: [
         "https://www.sololearn.com/en/certificates/CC-TT2U72JV",
         "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view",
         ]
     },
     {
-    grade: "10-2",
-    name: "Тэмүүлэн",
-    certificates: [
-        "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view",
-        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
-    ]
-    },
-    {
-    grade: "10-2",
-    name: "Удвал",
-    certificates: [
-        "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view?usp=sharing",
-        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
-    ]
-    },
-    {
-    grade: "10-2",
-    name: "Хишигдэлгэрэх",
-    certificates: [
-        "https://www.sololearn.com/certificates/CC-LK3RRABV",
-        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
-    ]
-    },
-    {
-    grade: "10-2",
-    name: "Хулан",
-    certificates: [
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-    ]
+        grade: "10-2",
+        name: "Б.Тэмүүлэн",
+        certificates: [
+            "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view",
+            "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+        ]
     },
     {
         grade: "10-2",
-        name: "Энхтөр",
+        name: "Ц.Удвал",
+        certificates: [
+            "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view?usp=sharing",
+            "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+        ]
+    },
+    {
+        grade: "10-2",
+        name: "Г.Хишигдэлгэрэх",
+        certificates: [
+            "https://www.sololearn.com/certificates/CC-LK3RRABV",
+            "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+        ]
+    },
+    {
+        grade: "10-2",
+        name: "Б.Хулан",
+        certificates: [
+            "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+            "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        ]
+    },
+
+    {
+        grade: "10-2",
+        name: "Э.Энхтөр",
         certificates: [
         "https://www.sololearn.com/certificates/CC-PXFJKNA8",
         "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
         ]
     },
-    {
-    grade: "10-2",
-    name: "Энэрэл",
-    certificates: [
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-    ]
+        {
+        grade: "10-2",
+        name: "Г.Энэрэл",
+        certificates: [
+            "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+            "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        ]
     },
     {
-    grade: "10-2",
-    name: "Эрхэс",
-    certificates: [
-        "https://www.sololearn.com/certificates/CC-L2VQ23PD",
-        "https://www.sololearn.com/certificates/CC-GGDKUPA2",
-    ]
-    },
-    {
-    grade: "10-2",
-    name: "Kaggle Group",
-    certificates: [
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
-    ]
+        grade: "10-2",
+        name: "Э.Эрхэс",
+        certificates: [
+            "https://www.sololearn.com/certificates/CC-L2VQ23PD",
+            "https://www.sololearn.com/certificates/CC-GGDKUPA2",
+        ]
     },
     {
         grade: "11-2",
@@ -1848,15 +1840,15 @@ const studentData = [
     ]
     },
     {
-    grade: "12-1",
-    name: "Д.Дөлгөөн",
-    sw: "SW1",
-    certificates: [  "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
-        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
-        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
-        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
-        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
-    ]
+        grade: "12-1",
+        name: "Д.Дөлгөөн",
+        sw: "SW1",
+        certificates: [  "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+            "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+            "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+            "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+            "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+        ]
     },
     {
         grade: "12-1",

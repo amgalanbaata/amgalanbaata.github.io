@@ -1,3 +1,88 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("studentCards");
+
+    // URL-аас grade параметрийг авна
+    const urlParams = new URLSearchParams(window.location.search);
+    const gradeParam = urlParams.get('grade'); // жишээ нь: 7
+
+    if (!gradeParam) return;
+
+    // Жишээ: 7 бол, 7-1 болон 7-2-г шүүнэ
+    const gradesToShow = [`${gradeParam}-1`, `${gradeParam}-2`];
+
+    console.log(gradesToShow);
+    const students = studentData.filter(s => gradesToShow.includes(s.grade));
+    // Гарчгийг динамик болгох
+    gradeTitle.innerText = `Программ хангамж ${gradeParam}-р анги сурагчдын бүтээл`;
+
+    students.forEach(student => {
+        const card = document.createElement("div");
+        card.className = "col-sm-6 col-lg-4 wow fadeIn";
+        console.log(student.grade)
+        console.log(student.name)
+        if(grade == 6) {
+            card.innerHTML = `
+                <div class="post-minimal">
+                    <figure class="post-minimal-media">
+                        <a href="#">
+                            <img class="post-minimal-image" src="images/students/${student.grade}${student.name}.jpg" alt="${student.name}" width="370" height="260"/>
+                        </a>
+                    </figure>
+                    <div class="post-minimal-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">${student.grade} анги</li>
+                            <li class="list-inline-itema"><a href="#">${student.name}</a></li>
+                        </ul>
+                    </div>
+                    <h6 class="post-minimal-title">Scratch Хялбар Програмчлал</h6>
+                    <h6 class="post-minimal-title">Тоглоом бүтээх</h6>
+                    <h6 class="post-minimal-title">нэр: <strong>${student.scratch}</strong></h6>
+                </div>
+            `;
+        } else if(grade == 7) {
+            card.innerHTML = `
+                <div class="post-minimal">
+                    <figure class="post-minimal-media">
+                        <a href="#">
+                            <img class="post-minimal-image" src="images/students/${student.grade}${student.name}.jpg" alt="${student.name}" width="370" height="260"/>
+                        </a>
+                    </figure>
+                    <div class="post-minimal-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">${student.grade} анги</li>
+                            <li class="list-inline-itema"><a href="#">${student.name}</a></li>
+                        </ul>
+                    </div>
+                    <h6 class="post-minimal-title">Spoj.com Алгоритмчилал</h6>
+                    <h6 class="post-minimal-title"><strong>${student.spoj}</strong></h6>
+                </div>
+            `;
+        } else {
+            const certificateCount = Array.isArray(student.certificates) ? student.certificates.length : 0;
+            card.innerHTML = `
+                <div class="post-minimal">
+                    <figure class="post-minimal-media">
+                        <a href="#">
+                            <img class="post-minimal-image" src="images/students/${student.grade}${student.name}.jpg" alt="${student.name}" width="370" height="260"/>
+                        </a>
+                    </figure>
+                    <div class="post-minimal-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">${student.grade} анги</li>
+                            <li class="list-inline-itema"><a href="#">${student.name}</a></li>
+                        </ul>
+                    </div>
+                    <h6 class="post-minimal-title">Сертификат:</h6>
+                    <h6 class="post-minimal-title"><strong>${certificateCount}</strong></h6>
+                </div>
+            `;
+        }
+        container.appendChild(card);
+    });
+});
+
+
+
 // filter хийх жишээ
 const studentsInGrade = studentData.filter(s => s.grade === "6-1");
 // console.log(studentsInGrade);
@@ -144,43 +229,6 @@ if (grade) {
     document.getElementById('studentName').textContent = `Нэр: ${name}`;
 }
 
-
-
-
-
-// class-6-detail.js
-
-document.addEventListener("DOMContentLoaded", () => {
-    const container = document.getElementById("studentCards");
-
-    // console.log("studentData: ", studentData)
-    // Зөвхөн 6-1 ангийн сурагчдыг шүүж авна
-    const students = studentData.filter(s => s.grade === "6-1");
-
-    students.forEach(student => {
-        const card = document.createElement("div");
-        card.className = "col-sm-6 col-lg-4 wow fadeIn";
-        card.innerHTML = `
-            <div class="post-minimal">
-                <figure class="post-minimal-media">
-                    <a href="#">
-                        <img class="post-minimal-image" src="${student.image}" alt="${student.name}" width="370" height="260"/>
-                    </a>
-                </figure>
-                <div class="post-minimal-meta">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">${student.grade} анги</li>
-                        <li class="list-inline-itema"><a href="#">${student.name}</a></li>
-                    </ul>
-                </div>
-                <h6 class="post-minimal-title">Scratch Хялбар Програмчлал</h6>
-                <h6 class="post-minimal-title">Тоглоом бүтээх</h6>
-                <h6 class="post-minimal-title">нэр: <strong>${student.scratch}</strong></h6>
-            </div>
-        `;
-        container.appendChild(card);
-    });
-});
 
 
 
