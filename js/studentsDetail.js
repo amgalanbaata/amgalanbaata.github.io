@@ -159,13 +159,11 @@ if (["6-1", "6-2"].includes(grade)) {
     certContainer.textContent = decodeURIComponent(scratch);
     if (img === true) {
         scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
+        spojCerf.src = `images/spoj-certificate/${grade}${name}.png`;
+        console.log("certsRaw: ", certsRaw)
         console.log(image)
     } else {
         scratchWork.src = "images/6-scratch-images/scratch-default.png";
-    }
-    if(certsRaw) {
-        // scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
-        spojCerf.src = `images/spoj-certificate/${grade}${name}.png`;
     }
 } else if (["7-1", "7-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилал";
@@ -176,7 +174,8 @@ if (["6-1", "6-2"].includes(grade)) {
 } else if(["8-1", "8-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Spoj.com Алгоритмчилал";
     certContainer.textContent = decodeURIComponent(spoj);
-    spojCerf.src = `images/certificate-glade-8/${grade}${name}.jpg`;
+    spojCerf.src = `images/certificate-glade-8/${certsRaw}.jpg`;
+    console.log("certificate: ", certsRaw);
     if (grade) {
         gradeTypeElement8.innerHTML = "Сертификатууд:";
 
@@ -229,6 +228,11 @@ if (grade) {
     document.getElementById('studentName').textContent = `Нэр: ${name}`;
 }
 
+function fixingPage(n) {
+    if(n == 0) {
+        alert("Хуудас засвартай байна");
+    }
+}
 
 
 

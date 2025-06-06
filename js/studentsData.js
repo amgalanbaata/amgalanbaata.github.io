@@ -428,6 +428,7 @@ const studentData = [
         name: "Ө.Ананд",
         spoj: "Бодлого-71 rank-4561",
         certificates: [
+            "8-1Ө.Ананд.jpg"
         ],
     },
     {
@@ -435,6 +436,7 @@ const studentData = [
         name: "М.Анунгоо",
         spoj: "Бодлого-103 rank-2181",
         certificates: [
+            ""
         ],
     },
     {
@@ -442,6 +444,7 @@ const studentData = [
         name: "Д.Ариунзаяа",
         spoj: "Бодлого-77 rank-4068",
         certificates: [
+            ""
         ],
     },
     {
@@ -449,6 +452,7 @@ const studentData = [
         name: "Ж.Билэгт",
         spoj: "Бодлого-71 rank-4662",
         certificates: [
+            ""
         ],
     },
     {
@@ -456,6 +460,7 @@ const studentData = [
         name: "С.Бүжин",
         spoj: "Бодлого-31 rank-10232",
         certificates: [
+            ""
         ],
     },
     {
@@ -463,6 +468,7 @@ const studentData = [
         name: "Б.Дэлгэрдалай",
         spoj: "Бодлого-89 rank-3194",
         certificates: [
+            ""
         ],
     },
     {
@@ -470,6 +476,7 @@ const studentData = [
         name: "Г.Мишээл",
         spoj: "Бодлого-89 rank-3194",
         certificates: [
+            ""
         ],
     },
     {
@@ -477,6 +484,7 @@ const studentData = [
         name: "М.Мөнхдөл",
         spoj: "Бодлого-90 rank-3189",
         certificates: [
+            ""
         ],
     },
     {
@@ -484,6 +492,7 @@ const studentData = [
         name: "Г.Мөнхжаргал",
         spoj: "Бодлого-102 rank-2235",
         certificates: [
+            ""
         ],
     },
     {
@@ -491,6 +500,7 @@ const studentData = [
         name: "О.Мэргэд-Эрдэнэ",
         spoj: "Бодлого-105 rank-2083",
         certificates: [
+            ""
         ],
     },
     {
@@ -498,6 +508,7 @@ const studentData = [
         name: "Б.Номин",
         spoj: "Мэдээлэл Олдсонгүй",
         certificates: [
+            ""
         ],
     },
     {
@@ -505,6 +516,7 @@ const studentData = [
         name: "Н.Саяана",
         spoj: "Бодлого-78 rank-4026",
         certificates: [
+            ""
         ],
     },
     {
@@ -522,6 +534,7 @@ const studentData = [
         name: "Г.Төгөлдөр",
         spoj: "Бодлого-89 rank-3191",
         certificates: [
+            ""
         ],
     },
     {
@@ -529,6 +542,7 @@ const studentData = [
         name: "Ц.Төгс-Эрдэнэ",
         spoj: "Бодлого-100 rank-2410",
         certificates: [
+            ""
         ],
     },
     {
@@ -536,6 +550,7 @@ const studentData = [
         name: "Б.Түшиг",
         spoj: "Бодлого-97 rank-2700",
         certificates: [
+            ""
         ],
     },
     {
@@ -543,6 +558,7 @@ const studentData = [
         name: "Э.Хатанбаатар",
         spoj: "Бодлого-110 rank-1792",
         certificates: [
+            ""
         ],
     },
     {
@@ -550,6 +566,7 @@ const studentData = [
         name: "Н.Энэрэл",
         spoj: "Мэдээлэл Олдсонгүй",
         certificates: [
+            ""
         ],
     },
     {
@@ -557,6 +574,7 @@ const studentData = [
         name: "Б.Эрдэнэ",
         spoj: "Бодлого-45 rank-8600",
         certificates: [
+            ""
         ],
     },
     {
@@ -564,6 +582,7 @@ const studentData = [
         name: "Т.Баттүшиг",
         spoj: "Бодлого-44 rank-8439",
         certificates: [
+            ""
         ],
     },
     {
@@ -571,6 +590,7 @@ const studentData = [
         name: "А.Болор-Эрдэнэ",
         spoj: "Бодлого-67 rank-4900",
         certificates: [
+            ""
         ],
     },
     {
@@ -578,6 +598,7 @@ const studentData = [
         name: "Б.Бүжин",
         spoj: "Бодлого-108 rank-1937",
         certificates: [
+            ""
         ],
     },
     {
@@ -585,6 +606,7 @@ const studentData = [
         name: "Э.Бадрах",
         spoj: "Бодлого-70 rank-4667",
         certificates: [
+            ""
         ],
     },
     {
@@ -592,6 +614,7 @@ const studentData = [
         name: "Идэрхүлэг",
         spoj: "Бодлого-45 rank-8600",
         certificates: [
+            ""
         ],
     },
     {
@@ -599,6 +622,7 @@ const studentData = [
         name: "Марал",
         spoj: "Бодлого-78 rank-4028",
         certificates: [
+            ""
         ],
     },
     {
@@ -606,6 +630,7 @@ const studentData = [
         name: "Б.Мишээл",
         spoj: "Бодлого-48 rank-7900",
         certificates: [
+            ""
         ],
     },
     {
@@ -613,6 +638,7 @@ const studentData = [
         name: "Нандин-Эрдэнэ",
         spoj: "Бодлого-101 rank-2290",
         certificates: [
+            ""
         ],
     },
     {
@@ -620,6 +646,7 @@ const studentData = [
         name: "Сугар-Эрдэнэ",
         spoj: "Мэдээлэл Олдсонгүй",
         certificates: [
+            ""
         ],
     },
     {
@@ -627,6 +654,7 @@ const studentData = [
         name: "Б.Тэлмүүн",
         spoj: "Бодлого-225 rank-166",
         certificates: [
+            ""
         ],
     },
     {
@@ -634,6 +662,7 @@ const studentData = [
         name: "О.Тэмүүжин",
         spoj: "Бодлого-79 rank-3953",
         certificates: [
+            ""
         ],
     },
     {
@@ -641,6 +670,7 @@ const studentData = [
         name: "Д.Тэргэл",
         spoj: "Бодлого-67 rank-4939",
         certificates: [
+            ""
         ],
     },
     {
@@ -648,6 +678,7 @@ const studentData = [
         name: "Б.Чингүүн",
         spoj: "Мэдээлэл Олдсонгүй",
         certificates: [
+            ""
         ],
     },
     {
@@ -655,13 +686,15 @@ const studentData = [
         name: "Э.Чингүүн",
         spoj: "Мэдээлэл Олдсонгүй",
         certificates: [
+            ""
         ],
     },
     {
         grade: "8-2",
-        name: "М.Чингүүмаа",
+        name: "М.Чингүүнмаа",
         spoj: "Бодлого-102 rank-2235",
         certificates: [
+            ""
         ],
     },
     {
@@ -669,6 +702,7 @@ const studentData = [
         name: "Э.Эмүүжин",
         spoj: "Бодлого-77 rank-4094",
         certificates: [
+            ""
         ],
     },
     {
@@ -676,6 +710,7 @@ const studentData = [
         name: "Б.Эрхэмбаяр",
         spoj: "Бодлого-41 rank-8728",
         certificates: [
+            ""
         ],
     },
     {
@@ -735,7 +770,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "Э.Маргалгуа",
+    name: "Э.Маралгуа",
     certificates: [
         "https://www.sololearn.com/certificates/CC-EXPTDOGS",
         "https://www.sololearn.com/certificates/CC-GNM7ZGGY",
@@ -792,7 +827,7 @@ const studentData = [
     },
     {
     grade: "9-1",
-    name: "А.Сэцэн-Гүнж",
+    name: "А.Сэцэнгүнж",
     certificates: [
         "https://www.sololearn.com/certificates/CC-RUET4NKB",
         "https://www.sololearn.com/certificates/CC-75PXUTY6",
@@ -1195,7 +1230,6 @@ const studentData = [
     certificates: [
         "https://www.sololearn.com/certificates/CC-HVPXJDNP",
         "https://www.sololearn.com/en/certificates/CC-XT69KKRB",
-
     ]
     },
     {
@@ -1214,7 +1248,6 @@ const studentData = [
         "https://www.sololearn.com/certificates/CC-DJJPWXQU",
     ]
     },
-
     {
     grade: "10-2",
     name: "Э.Гэрэлтуяа",
@@ -1223,7 +1256,6 @@ const studentData = [
         "https://www.sololearn.com/certificates/CC-L7BRX74I",
     ]
     },
-
     {
     grade: "10-2",
     name: "М.Мөнх-Учрал",
@@ -1234,7 +1266,6 @@ const studentData = [
         "https://www.sololearn.com/certificates/CC-SUII0RLH",
     ]
     },
-
     {
         grade: "10-2",
         name: "Э.Мөнхтөр",
@@ -1275,7 +1306,6 @@ const studentData = [
             "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
         ]
     },
-
     {
         grade: "10-2",
         name: "Э.Энхтөр",
@@ -1534,7 +1564,7 @@ const studentData = [
     },
     {
     grade: "11-2",
-        name: "А.Нандин",
+        name: "Б.Нандин",
         certificates: [
             "https://api2.sololearn.com/v2/certificates/CC-YMRZ4HFG/image/png?t=638828283529630430",
             "https://www.sololearn.com/certificates/CC-RLF2GMVZ",
@@ -1545,7 +1575,6 @@ const studentData = [
     grade: "11-2",
         name: "Б.Жамуха",
         certificates: [
-
         ]
     },
     {
@@ -1927,14 +1956,14 @@ const studentData = [
     },
     {
     grade: "12-1",
-    name: "С.Төгөлдөр",
+    name: "Сайнхүү.Төгөлдөр",
     certificates: [
         "https://www.sololearn.com/certificates/CC-V0MLFRG2",
     ]
     },
     {
     grade: "12-1",
-    name: "С.Төгөлдөр",
+    name: "Сайнзаяа.Төгөлдөр",
     sw: "SW1",
     certificates: [
     ]
