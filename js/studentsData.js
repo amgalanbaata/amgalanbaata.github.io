@@ -41,7 +41,7 @@ const studentData = [
     {
         grade: "6-1",
         name: "Б.Тэнүүнтөрч",
-        scratch: "jumping",
+        scratch: "tag",
         image: true,
     },
     {
@@ -53,19 +53,19 @@ const studentData = [
     {
         grade: "6-1",
         name: "Б.Хүслэн",
-        scratch: "change of clothes",
+        scratch: "flowey boss",
         image: true,
     },
     {
         grade: "6-1",
         name: "Г.Тэмүүлэн",
-        scratch: "change of clothes",
+        scratch: "zombie shooter",
         image: true,
     },
     {
         grade: "6-1",
         name: "Л.Сайнхүү",
-        scratch: "soccer ball clicker",
+        scratch: "blading ball",
         image: true,
     },
     {
@@ -77,7 +77,7 @@ const studentData = [
     {
         grade: "6-1",
         name: "М.Баярцэцэг",
-        scratch: "anger game",
+        scratch: "falling ball",
         image: true,
     },
     {
@@ -113,134 +113,134 @@ const studentData = [
     {
         grade: "6-1",
         name: "Э.Хулангоо",
-        scratch: "platform",
+        scratch: "Туулай",
         image: true,
     },
     {
         grade: "6-2",
         name: "А.Мишээл",
         scratch: "jimmys adventure",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Б.Номин-Эрдэнэ",
         scratch: "delden gegdeehii",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Б.Төгөлдөр",
         scratch:"delden gegdeehii",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Б.Тэмүүлэн",
         scratch: "bumbulug unagah",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Б.Чингүүн",
         scratch: "shooting zombie",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Г.Анударь",
         scratch: "snake",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Г.Мөнхбилэг",
         scratch: "үсрэлт",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Г.Цэцүүхэн",
         scratch: "bumbugnuus bultah",
-        image: "",
+        image: true,
     },
     {
         grade: "6-2",
         name: "Д.Ган-Үжин",
-        scratch: "",
-        image: "",
+        scratch: "basketball",
+        image: true,
     },
     {
         grade: "6-2",
         name: "М.Гал",
-        scratch: "",
-        image: "",
+        scratch: "ping pong",
+        image: true
     },
     {
         grade: "6-2",
         name: "М.Есөн-Эрдэнэ",
         scratch: "jumpman",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "М.Эгшиглэн",
         scratch: "space waves",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "О.Бодьхүү",
         scratch: "2 noob",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "О.Тэмүүлэн",
         scratch: "shaar tsohig",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Т.Энхболд",
         scratch: "shaar tsohig",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "У.Маргад",
         scratch: "",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Х.Тод-Эрдэнэ",
         scratch: "uraldaanii mashin",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Х.Ууганбаяр",
         scratch: "help",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Ш.Индра",
         scratch: "😂 dardag togloom",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Э.Дэлгэрмөрөн",
         scratch: "car racking game",
-        image: "",
+        image: true
     },
     {
         grade: "6-2",
         name: "Э.Хишигтөгөлдөр",
         scratch: "zombie fight",
-        image: "",
+        image: true
     },
     {
         grade: "7-1",
@@ -369,7 +369,7 @@ const studentData = [
     },
     {
         grade: "7-2",
-        name: "Б.Эрмүүн",
+        name: "О.Эрмүүн",
         spoj: "Бодлого-103 rank-2167",
         certificates: [
         ],
@@ -413,6 +413,13 @@ const studentData = [
         grade: "7-2",
         name: "Э.Чулгар",
         spoj: "Бодлого-41 rank-8833",
+        certificates: [
+        ],
+    },
+    {
+        grade: "7-2",
+        name: "Ө.Эмүүжин",
+        spoj: "Бодлого-329 rank-53",
         certificates: [
         ],
     },
@@ -672,6 +679,636 @@ const studentData = [
         ],
     },
     {
+    grade: "9-1",
+    name: "Шижир Амжилт",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-R95ERVAA",
+        "https://www.sololearn.com/certificates/CC-VVAEFOPZ",
+        "https://www.kaggle.com/certification/badges/amjiltshijir/8",
+        "https://www.kaggle.com/certification/badges/amjiltshijir/30",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Мөнхбаяр Базаррагчаа",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-YASKUZIZ",
+        "https://www.sololearn.com/certificates/CC-D0GFHLR7",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Болд-Эрдэнэ",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-CT9UVPIV",
+        "https://www.sololearn.com/certificates/CC-CT9UVPIV",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Ганбаатар Бумбаяр",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-RUET4NKB",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+        "https://www.sololearn.com/certificates/CC-1XEDCSZV",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Сандуй Ирмүүн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-SOX5WSRL",
+        "https://www.sololearn.com/certificates/CC-TERH2AJC",
+        "https://www.freecodecamp.org/certification/fcc32798fc2-5baf-4caf-afb7-9fc9988cdea8/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/Irmvvn/30",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Мягмарсүрэн Итгэлтбаатар",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-NBL57P9A",
+        "https://www.sololearn.com/certificates/CC-64OQOUWX",
+        "https://www.freecodecamp.org/certification/fcc32798fc2-5baf-4caf-afb7-9fc9988cdea8/scientific-computing-with-python-v7",
+        "https://docs.google.com/spreadsheets/d/1EoQTt2NDP4wMjJwlHMyA7iSyfTsPSuK7JXNi25HwgtE/edit?gid=0#gid=0",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Э Маргалгуа",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-EXPTDOGS",
+        "https://www.sololearn.com/certificates/CC-GNM7ZGGY",
+        "https://www.sololearn.com/certificates/CC-048Q8SLR",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Амартүвшин Мөнгөнсүлд",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-VMW0G3FB",
+        "https://www.sololearn.com/certificates/CC-5T6SHEQZ",
+    ]
+    },
+
+    {
+    grade: "9-1",
+    name: "Мөнх-Амгалан",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-RUET4NKB",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Мөнхжаргал Мөнхбаясгалан",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-CFIROUD2",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Баттүвшин Мөнххүслэн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-SHFWVXEK",
+        "https://www.sololearn.com/certificates/CC-AXZI5SRG",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Баяраа Отгон-Эрдэнэ",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-SHFWVXEK",
+        "https://www.sololearn.com/certificates/CC-8CDT5JXL",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Баянтогтох Пүрэвбат",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-BQCFM68E",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "А Сэцэн-Гүнж",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-RUET4NKB",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Баянмөнх Хишигдарь",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-QWOMSX1J",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Chinzaya Хосбилэг",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-TEA0RQ3A",
+        "https://docs.google.com/spreadsheets/d/1EoQTt2NDP4wMjJwlHMyA7iSyfTsPSuK7JXNi25HwgtE/edit?usp=sharing",
+        "https://www.freecodecamp.org/certification/hosbileg/scientific-computing-with-python-v7",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Энхсайхан Эгшиглэн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-LXHMQQWL",
+        "https://docs.google.com/spreadsheets/d/1EoQTt2NDP4wMjJwlHMyA7iSyfTsPSuK7JXNi25HwgtE/edit?usp=sharing",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Эрдэнэбаяр Энхмэнд",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-RUET4NKB",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+        "https://www.kaggle.com/certification/badges/enkhmends2z/8",
+        "https://www.kaggle.com/certification/badges/enkhmends2z/30",
+    ]
+    },
+    {
+    grade: "9-1",
+    name: "Баясгалан Нандин-Эрдэнэ",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-RUET4NKB",
+        "https://www.sololearn.com/certificates/CC-75PXUTY6",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Энх-Амгалан",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-UGVLIXAN",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Мягмарсүрэн Манлай",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-J1AZUKHR",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Мөнхбат Бархасбадь",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-BUNIBFEH",
+        "https://www.sololearn.com/certificates/CC-FX9PJCSF",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Эгшиглэн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-UGVLIXAN",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+
+    {
+    grade: "9-2",
+    name: "Пүрэвсүрэн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-3QU5N45Z",
+        "https://www.sololearn.com/certificates/CC-NKX9UXAT",
+        "https://www.kaggle.com/certification/badges/purwsuren/8",
+        "https://www.kaggle.com/certification/badges/purwsuren/30",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Мөнхбаатар",
+    certificates: [
+        "https://www.sololearn.com/en/learn/courses/python-developer?location=2",
+        "https://www.sololearn.com/en/learn/courses/python-introduction?location=2",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Мишээл",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-VDCQRVL2",
+        "https://www.sololearn.com/certificates/CC-QAA93TAM",
+        "https://www.freecodecamp.org/certification/misheel_34/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/misheel419/8",
+        "https://www.kaggle.com/certification/badges/misheel419/30",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Содмэргэн Тэмүүлэнжав",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-UGVLIXAN",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Батсүх Энхтуяа",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-UGVLIXAN",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Баясгалан Анунгоо",
+    "certificates": [
+        "https://www.sololearn.com/certificates/CC-CQFSE1TJ",
+        "https://www.sololearn.com/certificates/CC-UULWPNO3",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Батбаяр Ариунболд",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-FNSS8B2W",
+        "https://www.sololearn.com/certificates/CC-IBEAETWX",
+    ]
+    },
+    {
+    grade: "9-2",
+    name: "Даландэлгэр Чинхүслэн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-HGKICMST",
+        "https://www.sololearn.com/certificates/CC-GXSHCDBJ",
+    ]
+    },
+    {
+        grade: "9-2",
+        name: "Ербиш Балжинням",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-JLS2YMTK",
+        "https://www.sololearn.com/certificates/CC-JGGLP0SX",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "Гантулга Гэгээн-Анир",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-AHVAIYYG",
+        "https://www.sololearn.com/certificates/CC-LADCHSDW",
+        "https://www.freecodecamp.org/certification/gegee/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/gegeenanirgantulга/8",
+        "https://www.kaggle.com/certification/badges/gegeenanirgantulга/30",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "Төрболд Энхжин",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-7HLUH5CP",
+        "https://www.sololearn.com/certificates/CC-LG2YJBBU",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "Сугардорж Төрмөнх",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-UGVLIXAN",
+        "https://www.sololearn.com/certificates/CC-MHSDFIJH",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "Мөнхцэцэг Тэмүүжин",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-XLK4PYCV",
+        "https://www.sololearn.com/certificates/CC-OX8G4MRQ",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "Баасандорж Ням-эрдэнэ",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-ID5YX4YM",
+        "https://www.sololearn.com/certificates/CC-ZHA9WUTI",
+        ]
+    },
+    {
+        grade: "9-2",
+        name: "LI Yuhin",
+        certificates: [
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Түвшинжаргал",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-WTW87RJJ",
+        "https://www.sololearn.com/certificates/CC-N6C67GMG",
+        "https://coursera.org/share/633d7c002b8b5d51a50539aed8978442",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Мөнхбаяр Мөнх-Ариун",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-MHCVEOBB",
+        "https://www.sololearn.com/certificates/CC-30ZJ64QU",
+        "https://www.freecodecamp.org/certification/fcc2ffe0fcb-ce6f-403c-aе7a-53cb2081f7db/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/munhariunmunhbayr/30",
+        "https://www.coursera.org/learn/programming-in-python/supplement/lw2KD/next-steps-after-programming-in-python",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Бат-Орших Бат-Эрдэнэ",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-ELZ29GCP",
+        "https://www.sololearn.com/certificates/CC-MSJC6HFU",
+        "https://www.sololearn.com/certificates/CC-ESZY79UF",
+        "https://www.freecodecamp.org/certification/fcc4dab5155-7f06-4efa-8f59-ed1f931f6fe3/scientific-computing-with-python-v7",
+        "https://www.coursera.org/learn/programming-in-python/home/module/5",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Ганболд Долгион",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Батнасан Оюу",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-9KU0OHYS",
+        "https://www.sololearn.com/certificates/CC-F6FYPNPL",
+        "https://freecodecamp.org/certification/Oyunjin/scientific-computing-with-python-v7",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Алтантулга Мөрөн",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Энхбаатар Зоригт",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-OMLBDFAR",
+        "https://www.sololearn.com/certificates/CC-DVGVK06F",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Чинзориг Буянтогтох",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-KQPHCPUB",
+        "https://www.sololearn.com/certificates/CC-HATQNCZK",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Ганбат Ганчимэг",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-JVFNUEFB",
+        "https://www.sololearn.com/certificates/CC-0FCWGXRF",
+        "https://www.freecodecamp.org/certification/fcc124bd4ef-14f7-44ад-aec3-33f2fb2dd907/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/gabriellaella/30",
+        "https://www.coursera.org/my-purchases/financial-aid",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Батзул Арвин-Эрдэнэ",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Цогтсайхан Оргилболд",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-5JIBKTQ8",
+        "https://www.freecodecamp.org/certification/TsogtsaihanOrgilbold/scientific-computing-with-python-v7",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Чин Асуру",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Хулан",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-QNT5UQT1",
+        "https://www.sololearn.com/certificates/CC-D4ZHDJ34",
+        "https://www.freecodecamp.org/certification/Hулан03326/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/hulan0326/30",
+        "https://www.coursera.org/account/accomplishments/certificate/MWOC7D1OS6I0",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Эмүүжин",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Гөлөгдэмбэрэл Есөнтэнгэр",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-IPKLU8PE",
+        "https://www.sololearn.com/certificates/CC-55JP7A9Z",
+        "https://www.freecodecamp.org/certification/fcc32798fc2-5baf-4caf-afb7-9fc9988cdea8/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/yusuntengeryusuu/30",
+        "https://coursera.org/share/eb3c85cdce4fc6741a0768ac3f972dc",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Оргил Дүүрэндалай",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-XVDG1YHZ",
+        "https://www.sololearn.com/certificates/CC-YJK1GWMM",
+        "https://www.freecodecamp.org/certification/fcc8a4d8f50-21c1-4233-88fc-3e6f0e26e028/scientific-computing-with-python-v7",
+        "https://www.kaggle.com/certification/badges/duurendalaiorgil/30",
+        "https://coursera.org/share/2955e55e7a7afbd5a7497d219e51cbf1",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Энхболд Эрхэмбилэг",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-WWBIBOHE",
+        "https://www.sololearn.com/certificates/CC-NK16Q1VX",
+        ]
+    },
+    {
+        grade: "10-1",
+        name: "Ариунбат Нарантүшиг",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-FPHW2SQF",
+        "https://www.sololearn.com/certificates/CC-E1MFG74O",
+        ]
+    },
+    {
+    grade: "10-2",
+    name: "Минжин",
+    certificates: [
+        "https://www.sololearn.com/en/certificates/CC-XT69KKRB https://www.sololearn.com/certificates/CC-6BSNQNAG",
+        "https://www.sololearn.com/en/certificates/CC-XT69KKRB",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Анар-Эрдэнэ",
+    certificates: [
+        "https://www.sololearn.com/en/certificates/CC-VXLWHVGJ",
+        "https://www.sololearn.com/certificates/CC-8QDR2XQS",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Баттулга",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-IZAO5RTA",
+        "https://www.sololearn.com/certificates/CC-RM9NTPGB",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Билгүүн",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-HVPXJDNP",
+        "https://www.sololearn.com/en/certificates/CC-XT69KKRB",
+
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Ган-Эрдэнэ",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-4PYWKOFK",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Гүнжинлхам",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-XUFAWXRV",
+        "https://www.sololearn.com/certificates/CC-DJJPWXQU",
+    ]
+    },
+
+    {
+    grade: "10-2",
+    name: "Гэрэлтуяа",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-VVZJJCKL",
+        "https://www.sololearn.com/certificates/CC-L7BRX74I",
+    ]
+    },
+
+    {
+    grade: "10-2",
+    name: "Мөнх-Учрал",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-2OC45FAG",
+        "https://www.sololearn.com/certificates/CC-TQSTDJRM",
+        "https://www.sololearn.com/certificates/CC-XOUMRRVW",
+        "https://www.sololearn.com/certificates/CC-SUII0RLH",
+    ]
+    },
+
+    {
+        grade: "10-2",
+        name: "Мөнхтөр",
+        certificates: [
+        "https://www.sololearn.com/en/certificates/CC-TT2U72JV",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view",
+        ]
+    },
+    {
+    grade: "10-2",
+    name: "Тэмүүлэн",
+    certificates: [
+        "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Удвал",
+    certificates: [
+        "https://drive.google.com/file/d/1FKuPUzoTfvfG20N3PfFTL1kXPSnE-bAW/view?usp=sharing",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Хишигдэлгэрэх",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-LK3RRABV",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Хулан",
+    certificates: [
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+    ]
+    },
+    {
+        grade: "10-2",
+        name: "Энхтөр",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-PXFJKNA8",
+        "https://drive.google.com/file/d/1zESLwrxYIPALoa8dOmzyIq9KD3PQrKLb/view?usp=sharing",
+        ]
+    },
+    {
+    grade: "10-2",
+    name: "Энэрэл",
+    certificates: [
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Эрхэс",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-L2VQ23PD",
+        "https://www.sololearn.com/certificates/CC-GGDKUPA2",
+    ]
+    },
+    {
+    grade: "10-2",
+    name: "Kaggle Group",
+    certificates: [
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+        "https://drive.google.com/drive/u/2/folders/13Y6WB1FSMDZ6Bxp3GwiG9Dh6BFAIDmgC?ths=true",
+    ]
+    },
+    {
         grade: "11-2",
         name: "Д.Эрмүүн",
         certificates: [
@@ -726,7 +1363,6 @@ const studentData = [
     grade: "11-2",
         name: "А.Түвшинбат",
         certificates: [
-
         ]
     },
     {
@@ -796,14 +1432,18 @@ const studentData = [
     grade: "11-2",
         name: "Б.Баасанжав",
         certificates: [
-
+            "images/certificate-images-11-1/11-2Б.Баасанжав-css.jpg",
+            "images/certificate-images-11-1/11-2Б.Баасанжав-html.jpg",
+            "images/certificate-images-11-1/11-2Б.Баасанжав-js.jpg",
         ]
     },
     {
     grade: "11-2",
         name: "Н.Тэнгис",
         certificates: [
-
+            "images/certificate-images-11-1/11-2Н.Тэнгис-css.jpg",
+            "images/certificate-images-11-1/11-2Н.Тэнгис-html.jpg",
+            "images/certificate-images-11-1/11-2Н.Тэнгис-js.jpg",
         ]
     },
     {
@@ -854,7 +1494,9 @@ const studentData = [
     grade: "11-2",
         name: "Э.Маргад-Эрдэнэ",
         certificates: [
-
+            "images/certificate-images-11-1/11-2Маргад-Эрдэнэ-css.jpg",
+            "images/certificate-images-11-1/11-2Маргад-Эрдэнэ-html.jpg",
+            "images/certificate-images-11-1/11-2Маргад-Эрдэнэ-js.jpg",
         ]
     },
     {
@@ -876,6 +1518,7 @@ const studentData = [
     {
         grade: "11-2",
         name: "В.Нурбол",
+        sw: "SW2",
         certificates: [
             "https://api2.sololearn.com/v2/certificates/CC-AKXI3KGN/image/png?t=638834177224726680",
             "https://api2.sololearn.com/v2/certificates/CC-ZCUX8KV7/image/png?t=638815271200939680",
@@ -924,9 +1567,11 @@ const studentData = [
     },
     {
         grade: "11-2",
-        name: "Б.Төвөргөөн",
+        name: "Б.Тэбуригэн",
         certificates: [
-
+            "images/certificate-images-11-1/11-2Тэбуригэн-css.jpg",
+            "images/certificate-images-11-1/11-2Тэбуригэн-html.jpg",
+            "images/certificate-images-11-1/11-2Тэбуригэн-js.jpg",
         ]
     },
     {
@@ -985,7 +1630,7 @@ const studentData = [
         certificates: [
             "https://www.sololearn.com/certificates/CC-WXJHJFAP",
             "https://www.sololearn.com/certificates/CC-XGFKAUKC",
-            "https://www.sololearn.com/certificates/CC-TTPTIGDH"
+            "https://www.sololearn.com/certificates/CC-TTPTIGDH",
         ]
     },
     {
@@ -1132,5 +1777,256 @@ const studentData = [
         name: "Т.Үлэмж",
         certificates: [
         ]
+    },
+    {
+    grade: "12-1",
+    name: "С.Ангараг",
+    certificates: [
+
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Э.Аниржавхлан",
+    certificates: [
+        "https://drive.google.com/file/d/1akAWzIIeI3bw3SCF-LUqeB0_N0r73DnX/view?usp=sharing",
+        "https://drive.google.com/file/d/1JOyGrv3DhOsO1XWJSzh65evhXCJwtdZl/view?usp=sharing",
+        "https://drive.google.com/file/d/1LOyVVw3fMd6PBgCMv0S8Uqn5hYe2OiDd/view?usp=sharing",
+        "https://drive.google.com/file/d/1pHK87AnbCf7F77HB8Kv1lErlSw1gUJoQ/view?usp=sharing",
+        "https://drive.google.com/file/d/1fXAI_VjQc5zXTIfto4TMQpbahEvTBWwG/view?usp=sharing",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "М.Батбилэг",
+    sw: "SW1",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-E4OCAASF",
+        "https://www.freecodecamp.org/certification/fcc4330fd71-78a2-4800-817d-9aedae8063b6/javascript-algorithms-and-data-structures-v8",
+        "https://www.freecodecamp.org/certification/fcc4330fd71-78a2-4800-817d-9aedae8063b6/responsive-web-design",
+        "https://courses.edx.org/certificates/3cc0e2c8e26e4036ba25b7355c5fd878",
+        "https://certificates.cs50.io/a45b7f46-a0f7-4c26-a9e5-fafc736a5960.pdf?size=letter",
+        "https://learn.microsoft.com/en-us/users/batbilegmyagmarsuren-7205/achievements/9y7nefeu",
+        "https://learn.microsoft.com/en-us/users/batbilegmyagmarsuren-7205/achievements/vj5kurgm",      "https://learn.microsoft.com/en-us/users/batbilegmyagmarsuren-7205/achievements/cxawev79",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Б.Билгүүдэй",
+    certificates: [
+
+    ]
+    },
+
+    {
+    grade: "12-1",
+    name: "Д.Болдбаяр",
+    sw: "SW1",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-CQLVNI2U",
+        "https://www.freecodecamp.org/certification/Boldbayar/javascript-algorithms-and-data-structures-v8",
+        "https://www.freecodecamp.org/certification/Boldbayar/responsive-web-design",
+        "https://drive.google.com/file/d/1J1mwP-JYVDtW5Gz6pGfbtcb_x9nbZ1Vm/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Ep_DOKqW5KWDLX70SB4MuhdpX4rYfgpW/view?usp=drive_link",
+        "https://drive.google.com/file/d/1RoKaDA4V7ws4w92X2xoAQXE0EXr-KdeF/view?usp=drive_link",
+        "https://drive.google.com/file/d/1XPqIZVdLpBSfTgrxzd8JATdjR6tk2a2L/view?usp=drive_link",
+        "https://drive.google.com/file/d/1PT4H-pg4mz0ISNZdc140H1uTTDV7efRe/view?usp=drive_link",
+        "https://drive.google.com/file/d/1f8YAKA4E1Vyu7qouZfvPek-ZbcB7w8we/view?usp=drive_link",
+        "https://drive.google.com/file/d/189hfzGOVz857u1sg35nGWK8Mk-08vk7_/view?usp=drive_link",
+        "https://courses.edx.org/certificates/97dd079d5f654044b8123de9b1bb2099?_gl=1*1gvr9is*_gcl_au*MTIxODE3MTc4MS4xNzQ1MjQxMjk4*_ga*MjEzODUwNDk5My4xNzQ1MjQxMjk4*_ga_D3KS4KMDT0*czE3NDc4Mjk3OTYkbzIkZzEkdDE3NDc4Mjk4NDckajkkbDAkaDAkZFU5aHRpd2VSX0hzRmpGWkZyTlJTM0J4dUZnQW9rR3lWY1E.",
+        "https://certificates.cs50.io/8c86bad0-8f1a-418c-b437-73f89d552b9e.pdf?size=letter",
+        "https://jumpshare.com/v/ODhpZhbdvQkvduF1TySE",
+        "https://jumpshare.com/v/yDO6689WRepXXaOYu66w",
+        "https://jumpshare.com/v/VelDalOIgsY28dmpdJSq",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "А.Болор",
+    certificates: [
+
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Д.Дөлгөөн",
+    sw: "SW1",
+    certificates: [  "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1v7pnkppcVV19XOk--T4iLuEIJvow9LZ6?ths=true",
+    ]
+    },
+    {
+        grade: "12-1",
+        name: "М.Дөлгөөндалай",
+        sw: "SW1",
+        certificates: [
+        "https://drive.google.com/drive/u/2/folders/1Yb59d5suVVgEq_P7dpu8AcJY3TMnLfle?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1Yb59d5suVVgEq_P7dpu8AcJY3TMnLfle?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1Yb59d5suVVgEq_P7dpu8AcJY3TMnLfle?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1Yb59d5suVVgEq_P7dpu8AcJY3TMnLfle?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1Yb59d5suVVgEq_P7dpu8AcJY3TMnLfle?ths=true",
+        ]
+    },
+    {
+    grade: "12-1",
+    name: "Б.Золзаяа",
+    certificates: [
+
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Э.Мөнх-Эрдэнэ",
+    "certificates": [
+
+    ]
+    },
+
+    {
+    grade: "12-1",
+    name: "Ц.Мөнхжин",
+    certificates: [
+
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Э.Мөнхзаяа",
+    certificates: [
+
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Т.Мөнхзориг",
+    sw: "SW1",
+    certificates: [
+        "https://www.freecodecamp.org/certification/Munkhzorig/javascript-algorithms-and-data-structures-v8",
+        "https://www.freecodecamp.org/certification/Munkhzorig/responsive-web-design",
+        "https://drive.google.com/drive/u/2/folders/1UcE-kIpeJo8lrzJ4lfYkYdjlK2vsjywe?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1UcE-kIpeJo8lrzJ4lfYkYdjlK2vsjywe?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1UcE-kIpeJo8lrzJ4lfYkYdjlK2vsjywe?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1UcE-kIpeJo8lrzJ4lfYkYdjlK2vsjywe?ths=true",      "https://drive.google.com/drive/u/2/folders/1UcE-kIpeJo8lrzJ4lfYkYdjlK2vsjywe?ths=true"
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Д.Оюунтогтох",
+    sw: "SW1",
+    certificates: [
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Г.Номин-эрдэнэ",
+    sw: "SW2",
+    certificates: [
+        "https://drive.google.com/file/d/1WM-cpk210IzP6eEEzJqiMWhwWiXQfu_n/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Z1jf_ekMQV8XYjKlJWOq3Sbg8ep6WrgZ/view?usp=drive_link",
+        "https://drive.google.com/file/d/14RCfLAm4Plg9aQFUD41Loo6v7DuBXSB/view?usp=drive_link",
+        "https://drive.google.com/file/d/1pV9M99wS-WvmRMBadpiFg37dsOcDzMxJ/view?usp=drive_link",
+        "https://drive.google.com/file/d/1YY4MZVa_0ENYTBbjbXkMqкEONцNGVmEe/view?usp=drive_link",
+        "https://drive.google.com/file/d/1a_EzZQWYIaMoHvSS0oBjPUUGeCyyzNbw/view?usp=drive_link",
+        "https://docs.google.com/document/d/1eyxkExVpCja5H363bIhFCmB-L6JepiKEaSXbkUqY7OA/edit?usp=drive_link",      "https://drive.google.com/file/d/1MUrFmvx0ifa8SKsBG_zejVfNoqUU2tIh/view?usp=drive_link",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "С.Төгөлдөр",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-V0MLFRG2",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "С.Төгөлдөр",
+    sw: "SW1",
+    certificates: [
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "С.Хүслэн",
+    sw: "SW1",
+    certificates: [
+        "https://drive.google.com/file/d/1sS8NzB5hpsdstxcNsXkZPLg-smeUt9fA/view?usp=sharing",
+        "https://drive.google.com/drive/u/2/folders/1cUCUSeKkx5TA-7SF4ySajMkRkFVXqElg?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1cUCUSeKkx5TA-7SF4ySajMkRkFVXqElg?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1cUCUSeKkx5TA-7SF4ySajMkRkFVXqElg?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1cUCUSeKkx5TA-7SF4ySajMkRkFVXqElg?ths=true",      "https://drive.google.com/drive/u/2/folders/1cUCUSeKkx5TA-7SF4ySajMkRkFVXqElg?ths=true",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "М.Чингис",
+    certificates: [
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "Н.Чингүнбилэг",
+    sw: "SW1",
+    certificates: [
+        "https://www.sololearn.com/certificates/CC-IMEWUDJB",
+        "https://www.freecodecamp.org/certification/fccfe70b107-a0f9-4c2f-ad44-a1ca2972c77b/javascript-algorithms-and-data-structures-v8",
+        "https://www.freecodecamp.org/certification/fccfe70b107-a0f9-4c2f-ad44-a1ca2972c77b/responsive-web-design",
+    ]
+    },
+    {
+    grade: "12-1",
+    name: "А.Чулуун-Эрдэнэ",
+    sw: "SW1",
+    certificates: [
+        "https://jmp.sh/GZSrkwuJ",
+        "https://jmp.sh/LjcfEuPP",
+        "https://jmp.sh/HAmNekDE",
+        "HarvardX CS50x Certificate | edX",
+        "https://certificates.cs50.io/106bc3b5-ab41-4a31-ac84-d02ea34d4d3b.pdf?size=letter",
+        "https://jmp.sh/HIxcHfRh",
+        "https://jmp.sh/bgGvs9bI",
+        "https://jmp.sh/YbJXadO9",
+    ]
+    },
+    {
+        grade: "12-1",
+        name: "Б.Тэмүүлэн",
+        sw: "SW2",
+        certificates: [
+        "https://www.sololearn.com/certificates/CC-LU9DNSO8",
+        "https://www.sololearn.com/certificates/CC-J5QEEA8Q",
+        "https://www.sololearn.com/certificates/CC-ETKGMDWP",
+        "https://www.sololearn.com/certificates/CC-NMVC913S",
+        "https://cs50.harvard.edu/certificates/1743ff4c-3ad0-409f-9b4а-aa23622508c4",
+        ]
+    },
+    {
+        grade: "12-1",
+        name: "Ц.Мөнхзул",
+        sw: "SW1",
+        certificates: [
+        "https://drive.google.com/drive/u/2/folders/1TlC8pZJ5d1EIdZIZLkBgHWQyitzWkcw6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1TlC8pZJ5d1EIdZIZLkBgHWQyitzWkcw6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1TlC8pZJ5d1EIdZIZLkBgHWQyitzWkcw6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1TlC8pZJ5d1EIdZIZLkBgHWQyitzWkcw6?ths=true",
+        "https://drive.google.com/drive/u/2/folders/1TlC8pZJ5d1EIdZIZLkBgHWQyitzWkcw6?ths=true",
+        ]
+    },
+    {
+    grade: "12-1",
+    name: "З.Энхтулга",
+    sw: "SW1",
+    certificates: [
+        "https://docs.google.com/document/d/1KHRVcGJ7pP0eCmOolG-VZ1I9TKYOJbEprB4akuTFY28/edit?usp=sharing",
+        "https://docs.google.com/document/d/12NPgeBpM1aL19aGrXf8CD7dB7BkUmGXXHvx_Wf48vrc/edit?usp=sharing",
+        "https://docs.google.com/document/d/1nJHhfoQZVBm9jzILdD6TVpGYldH0oIq74bWvlrafldM/edit?usp=sharing",
+        "https://courses.edx.org/certificates/7afc4f76baa94516aff15266e8700e76?_gl=1*1pz0x3c*_gcl_au*NDUyODM0MDA5LjE3NDc4MzIxNjE.*_ga*MTg0MDcxNjczMC4xNzQ3ODMyMTYx*_ga_D3KS4KMDT0*czE3NDc4MzIxNjEkbzEkZzEkdDE3NDc4MzIyMDAkajIxJGwwJGgwJGRNZzkxbFBzYTFNOUVxVmdjcy1nWlZmX25ULWdYd2Vidnhn",
+        "https://certificates.cs50.io/6005b6e8-d932-4862-a4ae-a75993bc7d2f.pdf?size=letter",
+        "https://learn.microsoft.com/api/achievements/share/en-us/EnhtulgaZ-8462/UYCLTEQ3?sharingId=774906DDE89AB76",
+        "https://learn.microsoft.com/api/achievements/share/en-us/EnhtulgaZ-8462/E5LXV8TP?sharingId=774906DDE89AB76",
+        "https://learn.microsoft.com/api/achievements/share/en-us/EnhtulgaZ-8462/HAH2NHV8?sharingId=774906DDE89AB76"
+    ]
     },
 ];

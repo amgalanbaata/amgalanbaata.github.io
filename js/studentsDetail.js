@@ -72,9 +72,9 @@ if (grade) {
 if (["6-1", "6-2"].includes(grade)) {
     gradeTypeElement.innerHTML = "Бүтээлийн Нэр:";
     certContainer.textContent = decodeURIComponent(scratch);
-    console.log(img)
     if (img === true) {
         scratchWork.src = `images/6-scratch-images/${grade}${name}.png`;
+        console.log(image)
     } else {
         scratchWork.src = "images/6-scratch-images/scratch-default.png";
     }
